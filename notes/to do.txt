@@ -1,3 +1,4 @@
+-dodać nawigację dla login, sing in i sign up
 -ogarnąć odnośniki w plikach
 -dziwne działanie kotwicy w about_content
 -zmienić czcionkę w about_content
