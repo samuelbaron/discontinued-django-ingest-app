@@ -13,23 +13,6 @@
 
 <button onclick="myFunction()" style="position: absolute; top: 20%; z-index: 100;">Try it</button>
 
-<script>
-    function myFunction() {
-        document.getElementById("home_content").style.display = "none";
-        document.getElementById("about_content").style.display = "block";
-    }
-</script>
-
-<a href="home.html">
-        <div id="home_button"><p>Home</p></div>
-    </a>
-    <a href="about.html">
-        <div id="about_button"><p>About</p></div>
-    </a>
-    <a href="contact.html">
-        <div id="contact_button"><p>Contact</p></div>
-    </a>
-
 <!--PRZYKŁADOWE DANE
         <h2>your name:</h2>
         <h2>your email:</h2>
