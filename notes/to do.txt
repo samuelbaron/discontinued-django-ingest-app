@@ -1,0 +1,38 @@
+-ogarnąć odnośniki w plikach
+-dziwne działanie kotwicy w about_content
+-zmienić czcionkę w about_content
+-jeśli kliknie się strzałkę prowadzącą do footera to obróć ją o 180 stopni. Po kliknięciu ma kierować do domyślnego wyglądu strony
+-po klinięciu w strzałkę prowadzącą do footera gorne menu ma pozostać w pełni widoczne
+-dodać alternatywne opisy zdjec
+-dodać resteter hasła i podlinkować go do pliku sign_in
+-tytuł strony ma się zmieniać po zmianie strony
+-przemyśleć sposób nawigacji ze strony typu user panel do np contactu, jak to zrobic sensownie
+-poczytać o heurestyce nielsena
+-dodać podpowiedzi (dymki)
+-pomyslec o dodaniu przycisku dodawania nowego zestawu slowek na stronie my sets
+
+<button onclick="myFunction()" style="position: absolute; top: 20%; z-index: 100;">Try it</button>
+
+<script>
+    function myFunction() {
+        document.getElementById("home_content").style.display = "none";
+        document.getElementById("about_content").style.display = "block";
+    }
+</script>
+
+<a href="home.html">
+        <div id="home_button"><p>Home</p></div>
+    </a>
+    <a href="about.html">
+        <div id="about_button"><p>About</p></div>
+    </a>
+    <a href="contact.html">
+        <div id="contact_button"><p>Contact</p></div>
+    </a>
+
+<!--PRZYKŁADOWE DANE
+        <h2>your name:</h2>
+        <h2>your email:</h2>
+        <h2>sign up date:</h2>
+        <h2>number of set repetitions:</h2>
+        -->
