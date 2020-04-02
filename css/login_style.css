@@ -55,12 +55,11 @@ body {
 }
 
 #login_home_button p {
-    margin-top:7%;
+    margin-top:4.5%;
     color:#fff;
     text-align:center;
     font-size:1.6em;
     font-weight:600;
-    font-family: 'Open Sans', sans-serif;
 }
 
 #login_home_button a {
@@ -94,12 +93,11 @@ body {
 }
 
 #login_about_button p {
-    margin-top:7%;
+    margin-top:4.5%;
     color:#fff;
     text-align:center;
     font-size:1.6em;
     font-weight:600;
-    font-family: 'Open Sans', sans-serif;
 }
 
 #login_about_button a {
@@ -133,12 +131,11 @@ body {
 }
 
 #login_contact_button p {
-    margin-top:7%;
+    margin-top:4.5%;
     color:#fff;
     text-align:center;
     font-size:1.6em;
     font-weight:600;
-    font-family: 'Open Sans', sans-serif;
 }
 
 #login_contact_button a {
