@@ -1,14 +1,12 @@
 # Ingest App repository
 
-![Project Image](images/presentation.png)
+![Project Image](readme_files/presentation.png)
 
 
 ## Navigation
 
 - [Description](#description)
-- [How To Use](#how-to-use)
 - [References](#references)
-- [License](#license)
 - [Author Info](#author-info)
 
 ---
@@ -25,10 +23,7 @@ Main assumptions is to let user to entertain and ingest knowledge at the same ti
 - Python
 - Django
 
-[Back To The Top](#read-me-template)
-
 ---
-
 
 ## References
 - [Streamlineicons](https://streamlineicons.com/)
