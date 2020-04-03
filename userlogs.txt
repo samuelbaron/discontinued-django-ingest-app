@@ -1,0 +1,2 @@
+login: stepkosAdmin
+haslo: tajnehaslo
