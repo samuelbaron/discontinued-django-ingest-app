@@ -177,7 +177,7 @@ input {
     background-color: #000121;;
     border: none;
     border-bottom: 3px solid white;
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: #000000;
     padding-top: 1.5%;
     padding-bottom: 1%;
@@ -198,31 +198,31 @@ input, select, textarea{
     text-align: center;
     color: white;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 ::-moz-placeholder {
     text-align: center;
     color: white;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 :-ms-input-placeholder {
     text-align: center;
     color: white;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 ::-ms-input-placeholder {
     text-align: center;
     color: white;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 ::placeholder {
     text-align: center;
     color: white;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 #login {
     border: none;

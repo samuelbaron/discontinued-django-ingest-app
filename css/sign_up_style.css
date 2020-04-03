@@ -180,7 +180,7 @@ input {
     color: #000000;
     padding-top: 1.5%;
     padding-bottom: 0.5%;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
@@ -196,31 +196,31 @@ input, select, textarea{
     text-align: center;
     color: white;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 ::-moz-placeholder {
     text-align: center;
     color: white;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 :-ms-input-placeholder {
     text-align: center;
     color: white;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 ::-ms-input-placeholder {
     text-align: center;
     color: white;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 ::placeholder {
     text-align: center;
     color: white;
     font-weight: 500;
-    font-size: 0.75em;
+    font-size: 0.9em;
 }
 #register
 {
