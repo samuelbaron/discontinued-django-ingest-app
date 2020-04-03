@@ -1,0 +1,567 @@
+@import "https://fonts.googleapis.com/css?family=Exo:400,700";
+* {
+    margin:0;
+    padding:0
+}
+html {
+    scroll-behavior:smooth
+}
+body {
+    font-family:'Exo',sans-serif;
+    width:100%;
+    overflow-y:hidden
+}
+
+#home_content {
+
+}
+
+#about_content {
+    display:none;
+
+}
+
+#contact_content {
+    display:none;
+
+}
+
+.home_button {
+    position:absolute;
+    background-color:#00103a;
+    width:8%;
+    height:5%;
+    top:24%;
+    left:90%;
+    z-index:2;
+    border:#fffdfe solid 5px;
+    border-radius:15% 15% 15% 15% / 25% 25% 25% 25%;
+    -webkit-transition:-webkit-transform .11s linear;
+    transition:-webkit-transform .11s linear;
+    -o-transition:transform .11s linear;
+    transition:transform .11s linear;
+    transition:transform .11s linear, -webkit-transform .11s linear;
+    text-decoration:none;
+    -webkit-transition:background-color .3s ease-out;
+    -o-transition:background-color .3s ease-out;
+    transition:background-color .3s ease-out;
+    font-family: 'Open Sans', sans-serif;
+}
+.home_button:hover {
+    cursor:pointer;
+    background-color:#258aff
+}
+.home_button p {
+    margin-top:3%;
+    color:#fff;
+    text-align:center;
+    font-size:1.6em;
+    font-weight: 600
+}
+.home_button a {
+    text-decoration:none
+}
+.about_button {
+    position:absolute;
+    background-color:#00103a;
+    width:8%;
+    height:5%;
+    top:32%;
+    left:90%;
+    z-index:3;
+    border:#fffdfe solid 5px;
+    border-radius:15% 15% 15% 15% / 25% 25% 25% 25%;
+    -webkit-transition:-webkit-transform .11s linear;
+    transition:-webkit-transform .11s linear;
+    -o-transition:transform .11s linear;
+    transition:transform .11s linear;
+    transition:transform .11s linear, -webkit-transform .11s linear;
+    text-decoration:none;
+    -webkit-transition:background-color .3s ease-out;
+    -o-transition:background-color .3s ease-out;
+    transition:background-color .3s ease-out;
+    font-family: 'Open Sans', sans-serif;
+}
+.about_button:hover {
+    cursor:pointer;
+    background-color:#258aff
+}
+.about_button p {
+    margin-top:4%;
+    color:#fff;
+    text-align:center;
+    font-size:1.6em;
+    font-weight:600
+}
+.about_button a {
+    text-decoration:none
+}
+.contact_button {
+    position:absolute;
+    background-color:#00103a;
+    width:8%;
+    height:5%;
+    top:40%;
+    left:90%;
+    z-index:3;
+    border:#fffdfe solid 5px;
+    border-radius:15% 15% 15% 15% / 25% 25% 25% 25%;
+    -webkit-transition:-webkit-transform .11s linear;
+    transition:-webkit-transform .11s linear;
+    -o-transition:transform .11s linear;
+    transition:transform .11s linear;
+    transition:transform .11s linear, -webkit-transform .11s linear;
+    text-decoration:none;
+    -webkit-transition:background-color .3s ease-out;
+    -o-transition:background-color .3s ease-out;
+    transition:background-color .3s ease-out;
+    font-family: 'Open Sans', sans-serif;
+}
+.contact_button:hover {
+    cursor:pointer;
+    background-color:#258aff
+}
+.contact_button p {
+    margin-top:5%;
+    color:#fff;
+    text-align:center;
+    font-size:1.6em;
+    font-weight:600
+}
+.contact_button a {
+    text-decoration:none
+}
+.horizontal_rectangle {
+    height:30%;
+    width:100%;
+    background-color:#000121;
+    position:absolute;
+    top:20%
+}
+.horizontal_rectangle_border {
+    height:34%;
+    width:100%;
+    background-color:#00042a;
+    position:absolute;
+    top:18%;
+    opacity:.3;
+    z-index:0
+}
+.h1_header {
+    color:#fff;
+    font-size:600%;
+    position:absolute;
+    left:4%;
+    top:29%;
+    z-index:2
+}
+
+#home_start_button {
+    top:22%;
+    width:20%;
+    height:50%;
+    left:38%;
+    position:absolute;
+    background:#1c29a0;
+    z-index:2;
+    border-radius:23% 23% 23% 23% / 60% 60% 60% 60%;
+    border:10px solid #13184b;
+    -webkit-transition:background-color .3s ease-out;
+    -o-transition:background-color .3s ease-out;
+    transition:background-color .3s ease-out;
+    -webkit-transition:all .4s ease-in-out;
+    -o-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out;
+    overflow:hidden;
+}
+
+#home_start_button:hover {
+    background-color:#3a3dcb;
+    cursor:pointer
+}
+
+#home_start_button p {
+    color:#fff;
+    text-align:center;
+    font-size:4em;
+    font-weight: 800;
+    margin-top:10%;
+}
+
+#navigation_arrow_to_the_footer {
+    position:absolute;
+    top:93%;
+    margin-left:47.5%;
+    margin-right:48%
+}
+
+#navigation_arrow_to_the_footer:hover {
+    cursor:pointer
+}
+
+#arrow_icon {
+    color:#000121;
+    -webkit-transition:color .3s ease-out;
+    -o-transition:color .3s ease-out;
+    transition:color .3s ease-out
+}
+
+#arrow_icon:hover {
+    color:#fff
+}
+
+#footer_icons {
+    position:absolute;
+    width:100%;
+    height:7%;
+    background-color:#000121;
+}
+
+#facebook_footer_icon {
+    position:absolute;
+    padding-top:1%;
+    left:35.25%;
+    text-decoration:none;
+}
+
+#facebook_footer_icon:hover {
+    cursor:pointer;
+}
+
+#mail_footer_icon {
+    position:absolute;
+    padding-top:1%;
+    left:47.75%;
+}
+
+#mail_footer_icon:hover {
+    cursor:pointer;
+}
+
+#instagram_footer_icon {
+    position:absolute;
+    padding-top:1%;
+    left:61%;
+}
+
+#instagram_footer_icon:hover {
+    cursor:pointer;
+}
+
+#about_rectangle {
+    position:absolute;
+    left:26%;
+    width:58%;
+    height:100%;
+    z-index:2
+}
+
+#about_app {
+    color:#fff;
+    font-size:1.8em;
+    top:39%;
+    left:8%;
+    position:absolute;
+    text-align:center;
+    font-weight:500;
+    color:#FFF;
+
+
+}
+
+#about_navigation_arrow_to_the_footer {
+    position:absolute;
+    top:93%;
+    margin-left:47.5%;
+    margin-right:48%
+}
+
+#about_navigation_arrow_to_the_footer:hover {
+    cursor:pointer
+}
+
+#about_arrow_icon {
+    color:#000121;
+    -webkit-transition:color .3s ease-out;
+    -o-transition:color .3s ease-out;
+    transition:color .3s ease-out
+}
+
+#about_arrow_icon:hover {
+    color:#fff
+}
+
+#about_footer_icons {
+    position:absolute;
+    width:100%;
+    height:7%;
+    background-color:#000121
+}
+
+#about_facebook_footer_icon {
+    position:absolute;
+    padding-top:1%;
+    left:35.25%;
+    text-decoration:none;
+}
+
+#about_facebook_footer_icon:hover {
+    cursor:pointer;
+}
+
+#about_mail_footer_icon {
+    position:absolute;
+    padding-top:1%;
+    left:47.75%;
+}
+
+#about_mail_footer_icon:hover {
+    cursor:pointer;
+}
+
+#about_instagram_footer_icon {
+    position:absolute;
+    padding-top:1%;
+    left:61%;
+}
+
+#about_instagram_footer_icon:hover {
+    cursor:pointer;
+}
+
+
+#contact_icons {
+    position:absolute;
+    width:100%;
+    height:7%;
+    top:36%;
+    background-color:#000121;
+    z-index:1
+}
+
+#contact_facebook_icon {
+    position:absolute;
+    padding-top:1%;
+    left:42.25%;
+    -webkit-transition:color .2s ease-out;
+    -o-transition:color .2s ease-out;
+    transition:color .2s ease-out
+}
+
+#contact_facebook_icon:hover {
+    cursor:pointer;
+}
+
+#contact_mail_icon {
+    position:absolute;
+    padding-top:1%;
+    left:54.75%;
+    color:#fff;
+    -webkit-transition:color .2s ease-out;
+    -o-transition:color .2s ease-out;
+    transition:color .2s ease-out
+}
+
+#contact_mail_icon:hover {
+    cursor:pointer;
+}
+
+#contact_instagram_icon {
+    position:absolute;
+    padding-top:1%;
+    left:67%;
+
+    -webkit-transition:color .2s ease-out;
+
+    -o-transition:color .2s ease-out;
+
+    transition:color .2s ease-out
+}
+
+#contact_instagram_icon:hover {
+    cursor:pointer;
+}
+
+
+
+.context {
+    width:100%;
+    position:absolute;
+    top:10vh
+}
+.area {
+    background-color:#1c29a0;
+    background-image:url(../background_patterns/swirl.png);
+    width:100%;
+    height:100vh
+}
+.circles {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    overflow:hidden
+}
+.circles li {
+    position:absolute;
+    display:block;
+    list-style:none;
+    width:20px;
+    height:20px;
+    background:rgba(255,255,255,0.2);
+    -webkit-animation:animate 25s linear infinite;
+    animation:animate 25s linear infinite;
+    bottom:-150px
+}
+.circles li:nth-child(1) {
+    background-image:url(../flags/japan.png);
+    left:25%;
+    width:150px;
+    height:150px;
+    -webkit-animation-delay:3s;
+    animation-delay:3s;
+    -webkit-animation-duration:10s;
+    animation-duration:10s
+}
+.circles li:nth-child(2) {
+    background-image:url(../flags/spain.png);
+    left:10%;
+    width:150px;
+    height:150px;
+    -webkit-animation-delay:10s;
+    animation-delay:10s;
+    -webkit-animation-duration:10s;
+    animation-duration:10s
+}
+.circles li:nth-child(3) {
+    background-image:url(../flags/italy.png);
+    left:70%;
+    width:150px;
+    height:150px;
+    -webkit-animation-delay:4s;
+    animation-delay:4s;
+    -webkit-animation-duration:10s;
+    animation-duration:10s
+}
+.circles li:nth-child(4) {
+    background-image:url(../flags/uk.png);
+    margin-bottom:10px;
+    left:40%;
+    width:150px;
+    height:150px;
+    -webkit-animation-delay:0;
+    animation-delay:0;
+    -webkit-animation-duration:10s;
+    animation-duration:10s
+}
+.circles li:nth-child(5) {
+    background-image:url(../flags/france.png);
+    left:65%;
+    width:150px;
+    height:150px;
+    -webkit-animation-delay:1s;
+    animation-delay:1s;
+    -webkit-animation-duration:10s;
+    animation-duration:10s
+}
+.circles li:nth-child(6) {
+    background-image:url(../flags/uk.png);
+    left:85%;
+    width:150px;
+    height:150px;
+    -webkit-animation-delay:3s;
+    animation-delay:3s;
+    -webkit-animation-duration:10s;
+    animation-duration:10s
+}
+.circles li:nth-child(7) {
+    background-image:url(../flags/germany.png);
+    left:35%;
+    width:150px;
+    height:150px;
+    -webkit-animation-delay:7s;
+    animation-delay:7s;
+    -webkit-animation-duration:10s;
+    animation-duration:10s
+}
+.circles li:nth-child(8) {
+    background-image:url(../flags/uk.png);
+    left:5%;
+    width:150px;
+    height:150px;
+    -webkit-animation-delay:4s;
+    animation-delay:4s;
+    -webkit-animation-duration:10s;
+    animation-duration:10s
+}
+.circles li:nth-child(9) {
+    background-image:url(../flags/corea.png);
+    left:50%;
+    width:150px;
+    height:150px;
+    -webkit-animation-delay:10s;
+    animation-delay:10s;
+    -webkit-animation-duration:10s;
+    animation-duration:10s
+}
+.circles li:nth-child(10) {
+    background-image:url(../flags/russia.png);
+    left:65%;
+    width:150px;
+    height:150px;
+    -webkit-animation-delay:6s;
+    animation-delay:6s;
+    -webkit-animation-duration:10s;
+    animation-duration:10s
+}
+.circles li:nth-child(11) {
+    background-image:url(../flags/portugal.png);
+    left:85%;
+    width:150px;
+    height:150px;
+    -webkit-animation-delay:0;
+    animation-delay:0;
+    -webkit-animation-duration:10s;
+    animation-duration:10s
+}
+.circles li:nth-child(12) {
+    background-image:url(../flags/italy.png);
+    left:22%;
+    width:150px;
+    height:150px;
+    -webkit-animation-delay:6s;
+    animation-delay:6s;
+    -webkit-animation-duration:10s;
+    animation-duration:10s
+}
+@-webkit-keyframes animate {
+    0% {
+        -webkit-transform:translateY(0) rotate(0deg);
+        transform:translateY(0) rotate(0deg);
+        opacity:1;
+        border-radius:20%
+    }
+
+    100% {
+        -webkit-transform:translateY(-1280px) rotate(360deg);
+        transform:translateY(-1280px) rotate(360deg);
+        opacity:1;
+        border-radius:20%
+    }
+}
+@keyframes animate {
+    0% {
+        -webkit-transform:translateY(0) rotate(0deg);
+        transform:translateY(0) rotate(0deg);
+        opacity:1;
+        border-radius:20%
+    }
+
+    100% {
+        -webkit-transform:translateY(-1280px) rotate(360deg);
+        transform:translateY(-1280px) rotate(360deg);
+        opacity:1;
+        border-radius:20%
+    }
+}
