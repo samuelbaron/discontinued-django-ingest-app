@@ -177,11 +177,11 @@ input {
     background-color: #000121;;
     border: none;
     border-bottom: 3px solid white;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #000000;
     padding-top: 1.5%;
-    padding-bottom: 0.5%;
-    margin-bottom: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 
@@ -198,44 +198,44 @@ input, select, textarea{
     text-align: center;
     color: white;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 ::-moz-placeholder {
     text-align: center;
     color: white;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 :-ms-input-placeholder {
     text-align: center;
     color: white;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 ::-ms-input-placeholder {
     text-align: center;
     color: white;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 ::placeholder {
     text-align: center;
     color: white;
     font-weight: 500;
-    font-size: 0.75em;
+    font-size: 1em;
 }
 #login {
     border: none;
     color: black;
-    margin-top: 6.5%;
+    margin-top: 4.5%;
     background-color: #0056d7;
     font-weight: 700;
     -webkit-transition: background-color 0.3s ease-out;
     -o-transition: background-color 0.3s ease-out;
     transition: background-color 0.3s ease-out;
     margin-bottom: 4%;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 #login:hover{
     background: #1c29a0;
