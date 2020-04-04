@@ -2,6 +2,8 @@ from django.contrib import admin
 
 # Register your models here.
 
-from main.models import Topic
+from main.models import Topic, Word
 
-admin.site.register(Topic)
+for model in (Topic, Word):
+    admin.site.register(model)
+
