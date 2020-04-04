@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Exo', sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+
+.side_bar {
+    position: absolute;
+    height: 50%;
+    top: 29%;
+    right: 0%;
+    width: 3.2%;
+    background-color: #00103a;
+    border-radius: 40px 0px 0px 40px;
+
+}
+
+.user_icon {
+    margin-left: 26%;
+    margin-top: 160%;
+}
+
+.user_icon:hover {
+    cursor: pointer;
+    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
+}
+
+.email_icon {
+    margin-left: 26%;
+    margin-top: 145%;
+}
+
+.email_icon:hover {
+    cursor: pointer;
+    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
+}
+
+.settings_icon {
+    margin-left: 26%;
+    margin-top: 145%;
+}
+
+.settings_icon:hover {
+    cursor: pointer;
+    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
+}
+
+
+#navigation_bar {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    height: 7%;
+    background-color: #00103a;
+}
+
+#logo {
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    width: 2.5%;
+    z-index: 2;
+}
+
+#logo:hover {
+    cursor: pointer;
+    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
+}
+
+#logout_icon {
+    position: absolute;
+    right: 1%;
+    top: 35%;
+    z-index: 2;
+}
+
+#logout_icon:hover {
+    cursor: pointer;
+    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
+}
+
+#name {
+    position: absolute;
+    right: 4%;
+    top: 40%;
+    z-index: 2;
+    color: white;
+    font-size: 1em;
+}
+
+#navigation_bar_border {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    height: 8%;
+    background-color: #00103a;
+    opacity: 0.3;
+}
+
+
+#settings_rectangle {
+    position: absolute;
+    top: 20%;
+    width: 30%;
+    height: 70%;
+    margin-left: 35%;
+    border-radius: 10%;
+    background-color: #00103a;
+}
+
+#settings_title_row_h1 {
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    line-height: 180%;
+}
+
+
+.context {
+    width: 100%;
+    position: absolute;
+    top: 10vh
+}
+
+.area {
+    background-color: #1c29a0;
+    background-image: url(../background_patterns/swirl.png);
+    width: 100%;
+    height: 100vh
+}
+
+.circles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+.circles li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-animation: animate 25s linear infinite;
+    animation: animate 25s linear infinite;
+    bottom: -150px
+}
+
+.circles li:nth-child(1) {
+    background-image: url(../flags/japan.png);
+    left: 25%;
+    width: 150px;
+    height: 150px;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s
+}
+
+.circles li:nth-child(2) {
+    background-image: url(../flags/spain.png);
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s
+}
+
+.circles li:nth-child(3) {
+    background-image: url(../flags/italy.png);
+    left: 70%;
+    width: 150px;
+    height: 150px;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s
+}
+
+.circles li:nth-child(4) {
+    background-image: url(../flags/uk.png);
+    margin-bottom: 10px;
+    left: 40%;
+    width: 150px;
+    height: 150px;
+    -webkit-animation-delay: 0;
+    animation-delay: 0;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s
+}
+
+.circles li:nth-child(5) {
+    background-image: url(../flags/france.png);
+    left: 70%;
+    width: 150px;
+    height: 150px;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s
+}
+
+.circles li:nth-child(6) {
+    background-image: url(../flags/uk.png);
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s
+}
+
+.circles li:nth-child(7) {
+    background-image: url(../flags/germany.png);
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s
+}
+
+.circles li:nth-child(8) {
+    background-image: url(../flags/uk.png);
+    left: 5%;
+    width: 150px;
+    height: 150px;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s
+}
+
+.circles li:nth-child(9) {
+    background-image: url(../flags/corea.png);
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s
+}
+
+.circles li:nth-child(10) {
+    background-image: url(../flags/russia.png);
+    left: 75%;
+    width: 150px;
+    height: 150px;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s
+}
+
+.circles li:nth-child(11) {
+    background-image: url(../flags/portugal.png);
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    -webkit-animation-delay: 0;
+    animation-delay: 0;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s
+}
+
+.circles li:nth-child(12) {
+    background-image: url(../flags/italy.png);
+    left: 22%;
+    width: 150px;
+    height: 150px;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s
+}
+
+@-webkit-keyframes animate {
+    0% {
+        -webkit-transform: translateY(0) rotate(0deg);
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 20%
+    }
+
+    100% {
+        -webkit-transform: translateY(-1280px) rotate(360deg);
+        transform: translateY(-1280px) rotate(360deg);
+        opacity: 1;
+        border-radius: 20%
+    }
+}
+
+@keyframes animate {
+    0% {
+        -webkit-transform: translateY(0) rotate(0deg);
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 20%
+    }
+
+    100% {
+        -webkit-transform: translateY(-1280px) rotate(360deg);
+        transform: translateY(-1280px) rotate(360deg);
+        opacity: 1;
+        border-radius: 20%
+    }
+}
+
