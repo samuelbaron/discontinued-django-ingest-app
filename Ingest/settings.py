@@ -39,7 +39,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # Own aplications
-    
+
+    #'users'
+    #'user_panel'
+    #'user_setting'
+    'words_manager'
+    #'learn'
+
 ]
 
 MIDDLEWARE = [
