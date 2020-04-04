@@ -13,19 +13,27 @@ body {
 }
 
 #home_content {
-
+    display:none;
 }
 
 #about_content {
     display:none;
-
 }
 
 #contact_content {
     display:none;
+}
+
+#login_content{
 
 }
 
+#sign_in_content{
+    display:none;
+}
+#sign_up_content{
+    display:none;
+}
 .home_button {
     position:absolute;
     background-color:#00103a;
@@ -188,63 +196,63 @@ body {
     margin-top:10%;
 }
 
-#navigation_arrow_to_the_footer {
+.about_navigation_arrow_to_the_footer {
     position:absolute;
     top:93%;
     margin-left:47.5%;
     margin-right:48%
 }
 
-#navigation_arrow_to_the_footer:hover {
+.about_navigation_arrow_to_the_footer:hover {
     cursor:pointer
 }
 
-#arrow_icon {
+.about_arrow_icon {
     color:#000121;
     -webkit-transition:color .3s ease-out;
     -o-transition:color .3s ease-out;
     transition:color .3s ease-out
 }
 
-#arrow_icon:hover {
+.about_arrow_icon:hover {
     color:#fff
 }
 
-#footer_icons {
+.about_footer_icons {
     position:absolute;
     width:100%;
     height:7%;
-    background-color:#000121;
+    background-color:#000121
 }
 
-#facebook_footer_icon {
+.about_facebook_footer_icon {
     position:absolute;
     padding-top:1%;
     left:35.25%;
     text-decoration:none;
 }
 
-#facebook_footer_icon:hover {
+.about_facebook_footer_icon:hover {
     cursor:pointer;
 }
 
-#mail_footer_icon {
+.about_mail_footer_icon {
     position:absolute;
     padding-top:1%;
     left:47.75%;
 }
 
-#mail_footer_icon:hover {
+.about_mail_footer_icon:hover {
     cursor:pointer;
 }
 
-#instagram_footer_icon {
+.about_instagram_footer_icon {
     position:absolute;
     padding-top:1%;
     left:61%;
 }
 
-#instagram_footer_icon:hover {
+.about_instagram_footer_icon:hover {
     cursor:pointer;
 }
 
@@ -269,63 +277,63 @@ body {
 
 }
 
-#about_navigation_arrow_to_the_footer {
+.about_navigation_arrow_to_the_footer {
     position:absolute;
     top:93%;
     margin-left:47.5%;
     margin-right:48%
 }
 
-#about_navigation_arrow_to_the_footer:hover {
+.about_navigation_arrow_to_the_footer:hover {
     cursor:pointer
 }
 
-#about_arrow_icon {
+.about_arrow_icon {
     color:#000121;
     -webkit-transition:color .3s ease-out;
     -o-transition:color .3s ease-out;
     transition:color .3s ease-out
 }
 
-#about_arrow_icon:hover {
+.about_arrow_icon:hover {
     color:#fff
 }
 
-#about_footer_icons {
+.about_footer_icons {
     position:absolute;
     width:100%;
     height:7%;
     background-color:#000121
 }
 
-#about_facebook_footer_icon {
+.about_facebook_footer_icon {
     position:absolute;
     padding-top:1%;
     left:35.25%;
     text-decoration:none;
 }
 
-#about_facebook_footer_icon:hover {
+.about_facebook_footer_icon:hover {
     cursor:pointer;
 }
 
-#about_mail_footer_icon {
+.about_mail_footer_icon {
     position:absolute;
     padding-top:1%;
     left:47.75%;
 }
 
-#about_mail_footer_icon:hover {
+.about_mail_footer_icon:hover {
     cursor:pointer;
 }
 
-#about_instagram_footer_icon {
+.about_instagram_footer_icon {
     position:absolute;
     padding-top:1%;
     left:61%;
 }
 
-#about_instagram_footer_icon:hover {
+.about_instagram_footer_icon:hover {
     cursor:pointer;
 }
 
@@ -383,6 +391,298 @@ body {
 }
 
 
+
+#login_navigation_bar {
+    width:100%;
+    position:absolute;
+    top:0;
+    height:10%;
+    background-color:#00103a;
+}
+
+#login_navigation_bar_border {
+    width:100%;
+    position:absolute;
+    top:0;
+    height:11%;
+    background-color:#00103a;
+    opacity:.3
+}
+
+#login_home_button {
+    position:absolute;
+    background-color:#00103a;
+    width:8%;
+    height:50%;
+    top:20%;
+    left:23.5%;
+    z-index:3;
+    border:#fffdfe solid 5px;
+    border-radius:15% 15% 15% 15% / 25% 25% 25% 25%;
+    -webkit-transition:-webkit-transform .11s linear;
+    transition:-webkit-transform .11s linear;
+    -o-transition:transform .11s linear;
+    transition:transform .11s linear;
+    transition:transform .11s linear, -webkit-transform .11s linear;
+    text-decoration:none;
+    -webkit-transition:background-color .3s ease-out;
+    -o-transition:background-color .3s ease-out;
+    transition:background-color .3s ease-out
+}
+
+#login_home_button:hover {
+    cursor:pointer;
+    background-color:#258aff
+}
+
+#login_home_button p {
+    margin-top:4.5%;
+    color:#fff;
+    text-align:center;
+    font-size:1.6em;
+    font-weight:600;
+}
+
+#login_home_button a {
+    text-decoration:none
+}
+
+#login_about_button {
+    position:absolute;
+    background-color:#00103a;
+    width:8%;
+    height:50%;
+    top:20%;
+    left:44.5%;
+    z-index:3;
+    border:#fffdfe solid 5px;
+    border-radius:15% 15% 15% 15% / 25% 25% 25% 25%;
+    -webkit-transition:-webkit-transform .11s linear;
+    transition:-webkit-transform .11s linear;
+    -o-transition:transform .11s linear;
+    transition:transform .11s linear;
+    transition:transform .11s linear, -webkit-transform .11s linear;
+    text-decoration:none;
+    -webkit-transition:background-color .3s ease-out;
+    -o-transition:background-color .3s ease-out;
+    transition:background-color .3s ease-out
+}
+
+#login_about_button:hover {
+    cursor:pointer;
+    background-color:#258aff
+}
+
+#login_about_button p {
+    margin-top:4.5%;
+    color:#fff;
+    text-align:center;
+    font-size:1.6em;
+    font-weight:600;
+}
+
+#login_about_button a {
+    text-decoration:none;
+}
+
+#login_contact_button {
+    position:absolute;
+    background-color:#00103a;
+    width:8%;
+    height:50%;
+    top:20%;
+    right:26.5%;
+    z-index:3;
+    border:#fffdfe solid 5px;
+    border-radius:15% 15% 15% 15% / 25% 25% 25% 25%;
+    -webkit-transition:-webkit-transform .11s linear;
+    transition:-webkit-transform .11s linear;
+    -o-transition:transform .11s linear;
+    transition:transform .11s linear;
+    transition:transform .11s linear, -webkit-transform .11s linear;
+    text-decoration:none;
+    -webkit-transition:background-color .3s ease-out;
+    -o-transition:background-color .3s ease-out;
+    transition:background-color .3s ease-out
+}
+
+#login_contact_button:hover {
+    cursor:pointer;
+    background-color:#258aff
+}
+
+#login_contact_button p {
+    margin-top:4.5%;
+    color:#fff;
+    text-align:center;
+    font-size:1.6em;
+    font-weight:600;
+}
+
+#login_contact_button a {
+    text-decoration:none
+}
+
+#login_horizontal_rectangle {
+    height:60%;
+    width:100%;
+    background-color:#000121;
+    position:absolute;
+    top:20%;
+    z-index:1
+}
+
+#login_horizontal_rectangle_border {
+    height:64%;
+    width:100%;
+    background-color:#00042a;
+    position:absolute;
+    top:18%;
+    opacity:.3;
+    z-index:0
+}
+
+#sign_in_button {
+    top:35%;
+    width:20%;
+    height:25%;
+    left:19%;
+    position:absolute;
+    background:#1c29a0;
+    z-index:2;
+    border-radius:23% 23% 23% 23% / 60% 60% 60% 60%;
+    border:10px solid #13184b;
+    -webkit-transition:background-color .3s ease-out;
+    -o-transition:background-color .3s ease-out;
+    transition:background-color .3s ease-out;
+    -webkit-transition:all .4s ease-in-out;
+    -o-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out;
+    overflow:hidden
+}
+
+#sign_in_button:hover {
+    background-color:#3a3dcb;
+    cursor:pointer
+}
+
+#sign_in_button p {
+    color:#fff;
+    text-align:left;
+    margin-left:19%;
+    font-size:3em;
+    font-weight:600;
+    margin-top:12%
+}
+
+#sign_in_button_icon {
+    position:absolute;
+    z-index:2;
+    color:#fff;
+    left:70%;
+    bottom:32%
+}
+
+#sign_up_button {
+    top:35%;
+    width:20%;
+    height:25%;
+    right:21%;
+    position:absolute;
+    background:#1c29a0;
+    z-index:2;
+    border-radius:23% 23% 23% 23% / 60% 60% 60% 60%;
+    border:10px solid #13184b;
+    -webkit-transition:background-color .3s ease-out;
+    -o-transition:background-color .3s ease-out;
+    transition:background-color .3s ease-out;
+    -webkit-transition:all .4s ease-in-out;
+    -o-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out;
+    overflow:hidden
+}
+
+#sign_up_button:hover {
+    background-color:#3a3dcb;
+    cursor:pointer
+}
+
+#sign_up_button p {
+    color:#fff;
+    text-align:left;
+    margin-left:17%;
+    font-size:3em;
+    font-weight:600;
+    margin-top:12%
+}
+
+#sign_up_button_icon {
+    position:absolute;
+    z-index:2;
+    color:#fff;
+    left:72%;
+    bottom:32%
+}
+
+.about_navigation_arrow_to_the_footer {
+    position:absolute;
+    top:93%;
+    margin-left:47.5%;
+    margin-right:48%
+}
+
+.about_navigation_arrow_to_the_footer:hover {
+    cursor:pointer
+}
+
+.about_arrow_icon {
+    color:#000121;
+    -webkit-transition:color .3s ease-out;
+    -o-transition:color .3s ease-out;
+    transition:color .3s ease-out
+}
+
+.about_arrow_icon:hover {
+    color:#fff
+}
+
+.about_footer_icons {
+    position:absolute;
+    width:100%;
+    height:7%;
+    background-color:#000121
+}
+
+.about_facebook_footer_icon {
+    position:absolute;
+    padding-top:1%;
+    left:35.25%;
+    text-decoration:none;
+}
+
+.about_facebook_footer_icon:hover {
+    cursor:pointer;
+}
+
+.about_mail_footer_icon {
+    position:absolute;
+    padding-top:1%;
+    left:47.75%;
+}
+
+.about_mail_footer_icon:hover {
+    cursor:pointer;
+}
+
+.about_instagram_footer_icon {
+    position:absolute;
+    padding-top:1%;
+    left:61%;
+}
+
+.about_instagram_footer_icon:hover {
+    cursor:pointer;
+}
 
 .context {
     width:100%;
