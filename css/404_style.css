@@ -16,122 +16,50 @@ body {
     overflow-y: hidden;
 }
 
-
-.side_bar {
+.horizontal_rectangle {
+    height:34%;
+    width:100%;
+    background-color:#000121;
+    position:absolute;
+    top:32%
+}
+.horizontal_rectangle_border {
+    height:38%;
+    width:100%;
+    background-color:#00042a;
+    position:absolute;
+    top:30%;
+    opacity:.3;
+    z-index:0
+}
+#page_not_found{
+    color: #fff;
+    font-size: 5.3em;
     position: absolute;
-    height: 50%;
+    left: 38.7%;
     top: 29%;
-    right: 0%;
-    width: 3.2%;
-    background-color: #00103a;
-    border-radius: 40px 0px 0px 40px;
+    z-index: 2
 }
-
-.user_icon {
-    margin-left: 26%;
-    margin-top: 160%;
-}
-
-.user_icon:hover {
-    cursor: pointer;
-    -webkit-filter: brightness(70%);
-    filter: brightness(70%);
-}
-
-.email_icon {
-    margin-left: 26%;
-    margin-top: 145%;
-}
-
-.email_icon:hover {
-    cursor: pointer;
-    -webkit-filter: brightness(70%);
-    filter: brightness(70%);
-}
-
-.settings_icon {
-    margin-left: 26%;
-    margin-top: 145%;
-}
-
-.settings_icon:hover {
-    cursor: pointer;
-    -webkit-filter: brightness(70%);
-    filter: brightness(70%);
-}
-
-#navigation_bar {
-    width: 100%;
+#error{
+    font-size: 5.3em;
     position: absolute;
-    top: 0%;
-    height: 7%;
-    background-color: #00103a;
-}
-
-#logo {
-    position: absolute;
-    left: 1%;
-    top: 1%;
-    width: 2.5%;
+    left: 29%;
+    top: 29%;
     z-index: 2;
+    color: #0067ff;
 }
-
-#logo:hover {
-    cursor: pointer;
-    -webkit-filter: brightness(70%);
-    filter: brightness(70%);
-}
-
-#logout_icon {
+p{
+    font-size: 2.2em;
     position: absolute;
-    right: 1%;
-    top: 35%;
+    left: 35.9%;
+    top: 59%;
     z-index: 2;
+    color: #ffffff;
+    font-weight: 700;
 }
-
-#logout_icon:hover {
-    cursor: pointer;
-    -webkit-filter: brightness(70%);
-    filter: brightness(70%);
+p:hover{
+    opacity: 0.7;
 }
-
-#name {
-    position: absolute;
-    right: 4%;
-    top: 40%;
-    z-index: 2;
-    color: white;
-    font-size: 1em;
-}
-
-#navigation_bar_border {
-    width: 100%;
-    position: absolute;
-    top: 0%;
-    height: 8%;
-    background-color: #00103a;
-    opacity: 0.3;
-}
-
-#logout_rectangle {
-    position: absolute;
-    top: 25%;
-    width: 40%;
-    height: 50%;
-    margin-left: 30%;
-    border-radius: 10%;
-    background-color: #00103a;
-}
-
-#logout_title_row_h1 {
-    margin-top: 5%;
-    text-align: center;
-    color: white;
-    font-size: 3em;
-    line-height: 180%;
-}
-
-
 .context {
     width: 100%;
     position: absolute;
