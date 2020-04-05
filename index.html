@@ -2,13 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>HOME</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>INGEST</title>
+    <meta name="description" content="Modern web application allowing users to learn words in foreign languages.">
+    <meta name="keywords" content="ingest, words app, learn words, flashcards, studing, english,
+     german, italian, french, spanish, school, school tool, polish, quizlet, anki">
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon"/>
-    <script crossorigin="anonymous" src="https://kit.fontawesome.com/b4ad8819b6.js"></script>
-    <!--fontawesome icons linked-->
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/b4ad8819b6.js"></script> <!--fontawesome icons linked-->
 </head>
 
 <body>
@@ -31,12 +33,13 @@
 </div>
 
 <!--HOME-->
+<section>
 <div id="home_content">
-
+    <header>
     <div id="home_name">
-        <h1 class="h1_header">HOME</h1>
+        <h2 class="h1_header">HOME</h2>
     </div>
-
+    </header>
     <div class="horizontal_rectangle">
         <div id="home_start_button" role="button" onclick="open_login_content()">
             <p>LOGIN</p>
@@ -44,7 +47,7 @@
     </div>
 
     <div class="horizontal_rectangle_border"></div>
-
+    <nav>
     <div class="home_button" role="button" onclick="open_home_content()">
         <p>Home</p>
     </div>
@@ -56,21 +59,23 @@
     <div class="contact_button" role="button" onclick="open_contact_content()">
         <p>Contact</p>
     </div>
-
+    </nav>
     <div class="go_to_the_footer">
         <a href="#footer_anchor"><span class="arrow_icon"><i class="fas fa-caret-down fa-4x"></i></span></a>
     </div>
 
 </div>
-
+</section>
 <!--ABOUT-->
+<section>
 <div id="about_content">
-
+    <header>
     <div id="about_name">
-        <h1 class="h1_header">ABOUT</h1>
+        <h2 class="h1_header">ABOUT</h2>
     </div>
-
+    </header>
     <div class="horizontal_rectangle">
+
         <div id="about_description">
                 <span id="about_app">If you're looking for app to learn words, you came to the right place!<br/>
                Simple, intuitive and well built. That's what you've been looking for!</span>
@@ -78,7 +83,7 @@
     </div>
 
     <div class="horizontal_rectangle_border"></div>
-
+    <nav>
     <div class="home_button" role="button" onclick="open_home_content()">
         <p>Home</p>
     </div>
@@ -90,36 +95,37 @@
     <div class="contact_button" role="button" onclick="open_contact_content()">
         <p>Contact</p>
     </div>
-
+    </nav>
     <div class="go_to_the_footer">
         <a href="#footer_anchor"><span class="arrow_icon"><i class="fas fa-caret-down fa-4x"></i></span></a>
     </div>
 
 </div>
-
+</section>
 <!--CONTACT-->
+<section>
 <div id="contact_content">
-
+    <header>
     <div id="contact_name">
-        <h1 class="h1_header">CONTACT</h1>
+        <h2 class="h1_header">CONTACT</h2>
     </div>
-
+    </header>
     <div class="horizontal_rectangle">
         <div id="contact_icons">
             <div id="contact_facebook_icon">
-                <img src="icons/contact_icons/facebook.png">
+                <img src="icons/contact_icons/facebook.png" alt="facebook icon">
             </div>
             <div id="contact_mail_icon">
-                <img src="icons/contact_icons/email.png">
+                <img src="icons/contact_icons/email.png" alt="email icon">
             </div>
             <div id="contact_instagram_icon">
-                <img src="icons/contact_icons/instagram.png">
+                <img src="icons/contact_icons/instagram.png" alt="instagram icon">
             </div>
         </div>
     </div>
 
     <div class="horizontal_rectangle_border"></div>
-
+    <nav>
     <div class="home_button" role="button" onclick="open_home_content()">
         <p>Home</p>
     </div>
@@ -131,11 +137,14 @@
     <div class="contact_button" role="button" onclick="open_contact_content()">
         <p>Contact</p>
     </div>
-
+    </nav>
 </div>
+</section>
 
 <!--LOGIN-->
+<section>
 <div id="login_content">
+    <nav>
     <div id="login_navigation_bar">
         <div id="login_home_button" role="button" onclick="open_home_content_from_login_content()">
             <p>Home</p>
@@ -147,7 +156,7 @@
             <p>Contact</p>
         </div>
     </div>
-
+    </nav>
     <div id="login_navigation_bar_border"></div>
 
     <div id="login_horizontal_rectangle">
@@ -166,11 +175,13 @@
     <div class="go_to_the_footer">
         <a href="#footer_anchor"><span class="arrow_icon"><i class="fas fa-caret-down fa-4x"></i></span></a>
     </div>
-
 </div>
+</section>
 
 <!--SIGN IN-->
+<section>
 <div id="sign_in_content">
+    <nav>
     <div id="sign_in_navigation_bar">
         <div id="sign_in_home_button" role="button" onclick="open_home_content_from_sign_in_content()">
             <p>Home</p>
@@ -182,10 +193,13 @@
             <p>Contact</p>
         </div>
     </div>
+    </nav>
     <div id="sign_in_navigation_bar_border"></div>
 
     <div id="sign_in_horizontal_rectangle">
+        <header>
         <h1 id="sign_in_h1_header">SIGN IN</h1>
+        </header>
         <div id="sign_in_form">
             <form>
                 <input type="text" placeholder="username / email adress">
@@ -209,10 +223,12 @@
         <a href="#footer_anchor"><span class="arrow_icon"><i class="fas fa-caret-down fa-4x"></i></span></a>
     </div>
 </div>
-
+</section>
 
 <!--SIGN UP-->
+<section>
 <div id="sign_up_content">
+    <nav>
     <div id="sign_up_navigation_bar">
         <div id="sign_up_home_button" role="button" onclick="open_home_content_from_sign_up_content()">
             <p>Home</p>
@@ -224,10 +240,13 @@
             <p>Contact</p>
         </div>
     </div>
+    </nav>
     <div id="sign_up_navigation_bar_border"></div>
 
     <div id="sign_up_horizontal_rectangle">
+        <header>
         <h1 id="sign_up_h1_header">SIGN UP</h1>
+        </header>
         <div id="sign_up_form">
             <form>
                 <input type="text" placeholder="username"> <br/>
@@ -247,21 +266,21 @@
         <a href="#footer_anchor"><span class="arrow_icon"><i class="fas fa-caret-down fa-4x"></i></span></a>
     </div>
 </div>
-
+</section>
+<footer>
 <div class="footer_icons">
     <div id="footer_anchor"></div>
     <div class="facebook_footer_icon">
-        <a><img src="icons/footer_icons/footer_facebook.png"></a>
+        <a><img src="icons/footer_icons/footer_facebook.png" alt="facebook footer icon"></a>
     </div>
     <div class="mail_footer_icon">
-        <a><img src="icons/footer_icons/footer_email.png"></a>
+        <a><img src="icons/footer_icons/footer_email.png" alt="email footer icon"></a>
     </div>
     <div class="instagram_footer_icon">
-        <a><img src="icons/footer_icons/footer_instagram.png"></a>
+        <a><img src="icons/footer_icons/footer_instagram.png" alt="instagram footer icon"></a>
     </div>
-
 </div>
-
+</footer>
 <script src="javascript/index.js"></script>
 
 </body>
