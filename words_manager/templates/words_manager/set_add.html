@@ -2,10 +2,10 @@
 
 {% block content %}
 
-    <form action="{% url 'words_manager:add_topic' %}" method="POST">
+    <form action="{% url 'words_manager:set_add' %}" method="POST">
         {% csrf_token %}
         {{ form.as_p }}
-        <button name="submit">Add topic</button>
+        <button name="submit">Add set</button>
     </form>
 
 {% endblock content %}

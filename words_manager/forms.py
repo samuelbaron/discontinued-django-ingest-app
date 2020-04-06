@@ -1,10 +1,9 @@
 from django import forms
-from .models import Topic
+from .models import Set
 
-# Jaki mondry komentaqrz
 
-class TopicForm(forms.ModelForm):
+class SetForm(forms.ModelForm):
     class Meta:
-        model = Topic
+        model = Set
         fields = ['name']
         labels = {'text': ''}

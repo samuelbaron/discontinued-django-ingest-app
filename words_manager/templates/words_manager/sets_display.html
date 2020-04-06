@@ -1,0 +1,17 @@
+{% extends "words_manager/base.html" %}
+
+{% block content %}
+
+    <h2>Sets</h2>
+
+    <ul>
+        {% for set in sets %}
+        
+            <li>{{ set }}</li>
+
+        {% endfor %}
+    </ul>
+
+    <a href="{% url 'words_manager:set_add' %}">Add set</a>
+
+{% endblock content %}
