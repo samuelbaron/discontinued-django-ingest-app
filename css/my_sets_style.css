@@ -135,12 +135,11 @@ body {
 
 #sets_list {
     height: 77%;
-    width: 80%;
+    width: 82.5%;
     margin-left: 10%;
 }
 
 #set_list_ul {
-    text-align: center;
     text-decoration: none;
     list-style-type: none;
     overflow-y: scroll;
@@ -148,6 +147,7 @@ body {
 }
 
 #set_list_li {
+    text-align: center;
     font-size: 1.8em;
     padding: 5%;
     color: white;
