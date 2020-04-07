@@ -6,21 +6,22 @@ from django.urls import reverse
 from .models import *
 
 # Forms import
-from .forms import SetForm
+from .forms import TopicForm
 
 
-def sets_display(request):
-    sets = Set.objects.order_by('-date_added')
-    return render(request, 'words_manager/sets_display.html', {'sets': sets})
+def display_topics(request):
+    topics = Topic.objects.order_by('-date_added')
+    return render(request, 'words_manager/display_topics.html', {'topics': topics})
 
+# Tata jest super
 
-def set_add(request):
+def add_topic(request):
     if request.method != 'POST':
-        form = SetForm()
+        form = TopicForm()
     else:
-        form = SetForm(request.POST)
+        form = TopicForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect(reverse('words_manager:sets_display'))
+            return redirect(reverse('words_manager:display_topics'))
 
-    return render(request, 'words_manager/set_add.html', {'form': form})
+    return render(request, 'words_manager/add_topic.html', {'form': form})

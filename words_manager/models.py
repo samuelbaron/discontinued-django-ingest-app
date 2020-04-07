@@ -1,6 +1,8 @@
 from django.db import models
 
-class Set(models.Model):
+# Create your models here.
+
+class Topic(models.Model):
     name = models.CharField(max_length=30)
     date_added = models.DateTimeField(auto_now_add=True)
 
@@ -9,7 +11,7 @@ class Set(models.Model):
 
 
 class Word(models.Model):
-    set_FK = models.ForeignKey(Set, on_delete=models.CASCADE)
+    topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
 
     ''' --------- TO DO -----------
         example in native language 
