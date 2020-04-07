@@ -148,15 +148,15 @@ body {
     height: 100%;
 }
 
-#set_list_li {
+.set_list_li {
     text-align: left;
     margin-left: 8%;
     font-size: 1.2em;
-    padding: 5%;
+    padding: 3%;
     color: white;
 }
 
-#set_list_li:hover {
+.set_list_li:hover {
     opacity: 0.7;
     cursor: pointer;
 }
