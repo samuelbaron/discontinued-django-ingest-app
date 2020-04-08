@@ -148,7 +148,7 @@ body {
     height: 100%;
 }
 
-.set_list_li {
+.specific_set_list_li {
     text-align: left;
     margin-left: 8%;
     font-size: 1.2em;
@@ -156,7 +156,7 @@ body {
     color: white;
 }
 
-.set_list_li:hover {
+.specific_set_list_li:hover {
     opacity: 0.7;
     cursor: pointer;
 }
