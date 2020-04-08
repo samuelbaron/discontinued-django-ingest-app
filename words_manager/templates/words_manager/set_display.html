@@ -1,0 +1,18 @@
+{% extends "words_manager/base.html" %}
+
+{% block content %}
+
+    <h2>{{ set }}</h2>
+
+    <ul>
+        {% for word in words %}
+
+            <li>{{ word }}</li>
+
+            {% empty %}
+                <li>Set {{ set }} is empty</li>
+
+        {% endfor %}
+    </ul>
+
+{% endblock content %}
