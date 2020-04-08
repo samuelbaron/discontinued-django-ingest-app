@@ -2,18 +2,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta data -->
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta name="description" content="Modern web application allowing users to learn words in foreign languages.">
+    <meta name="keywords" content="ingest, words app, learn words, flashcards, studing, english,
+    german, italian, french, spanish, school, school tool, polish, quizlet, anki">
 
-    <!--<link rel="stylesheet" type="text/css" href="{% static 'words_manager/style.css' %}"/>-->
+    <!-- <title>INGEST</title> -->
 
-</head>
-<body>
+    <!-- stylesheets and more -->
+    <link href="{% static 'words_manager/css/base.css' %} " rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="{% static 'words_manager/images/favicon.png' %}" type="image/x-icon"/>
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/b4ad8819b6.js"></script> <!--fontawesome icons linked-->
 
-    <h1><a href="{% url 'words_manager:sets_display' %}">Ingest</a></h1>
-
-    {% block content %}
+    {% block head %}
     
-    {% endblock content %}
+    {% endblock head %}
+
+</head >
+
+<body>
+<div class="area">
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+
+<div id="navigation_bar">
+    <a href="index.html"><img src="{% static 'words_manager/images/ingest.svg' %}" id="logo" alt="app logo"></a>
+    <p id="user_name">-LOGIN OF USER-</p>
+    <img src="{% static 'words_manager/icons/user_panel_navigation_bar_icons/logout_icon.png' %}" id="logout_icon">
+</div>
+<div id="navigation_bar_border"></div>
+
+<div class="side_bar">
+    <img src="{% static 'words_manager/icons/side_bar_icons/user_icon.png' %}" class="user_icon">
+    <img src="{% static 'words_manager/icons/side_bar_icons/email_icon.png' %}" class="user_icon">
+    <img src="{% static 'words_manager/icons/side_bar_icons/settings_icon.png' %}" class="user_icon">
+</div>
+
+{% block content %}
+
+{% endblock content %}
 
 </body>
 </html>
+<!--Background Pattern: url("https://www.transparenttextures.com/patterns/swirl.png")-->
+<!--Flags Icons made by Freepik from www.flaticon.com-->
+<!--Round Icons download from streamlneicons.com-->
