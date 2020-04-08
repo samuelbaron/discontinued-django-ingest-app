@@ -1,4 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Exo:400,700";
+
 * {
     margin: 0;
     padding: 0
@@ -10,34 +11,30 @@ html {
 
 body {
     font-family: 'Exo', sans-serif;
-    width:100%;
+    width: 100%;
     overflow-y: hidden
-}
-/* CONTENTS */
-#home_content {
-
 }
 
 #about_content {
-    display: none;
+    display: none
 }
 
 #contact_content {
-    display: none;
+    display: none
 }
 
 #login_content {
-    display: none;
+    display: none
 }
 
 #sign_in_content {
-    display: none;
+    display: none
 }
 
 #sign_up_content {
-    display: none;
+    display: none
 }
-/* BUTTONS OF HOME, ABOUT AND CONTACT CONTENT */
+
 .home_button {
     position: absolute;
     background-color: #00103a;
@@ -46,18 +43,18 @@ body {
     top: 24%;
     left: 90%;
     z-index: 2;
-    border:#fffdfe solid 5px;
-    border-radius:15% 15% 15% 15% / 25% 25% 25% 25%;
-    -webkit-transition:-webkit-transform .11s linear;
-    transition:-webkit-transform .11s linear;
-    -o-transition:transform .11s linear;
-    transition:transform .11s linear;
-    transition:transform .11s linear, -webkit-transform .11s linear;
-    text-decoration:none;
-    -webkit-transition:background-color .3s ease-out;
-    -o-transition:background-color .3s ease-out;
-    transition:background-color .3s ease-out;
-    font-family: 'Open Sans', sans-serif;
+    border: #fffdfe solid 5px;
+    border-radius: 15% 15% 15% 15% / 25% 25% 25% 25%;
+    -webkit-transition: -webkit-transform .11s linear;
+    transition: -webkit-transform .11s linear;
+    -o-transition: transform .11s linear;
+    transition: transform .11s linear;
+    transition: transform .11s linear, -webkit-transform .11s linear;
+    text-decoration: none;
+    -webkit-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out;
+    font-family: 'Open Sans', sans-serif
 }
 
 .home_button:hover {
@@ -71,11 +68,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-size: 1.6em;
-    font-weight: 600;
+    font-weight: 600
 }
 
 .home_button p:hover {
-    color: white;
+    color: #fff
 }
 
 .home_button a {
@@ -88,21 +85,22 @@ body {
     width: 8%;
     height: 5%;
     top: 32%;
-    left:90%;
-    z-index:3;
-    border:#fffdfe solid 5px;
-    border-radius:15% 15% 15% 15% / 25% 25% 25% 25%;
-    -webkit-transition:-webkit-transform .11s linear;
-    transition:-webkit-transform .11s linear;
-    -o-transition:transform .11s linear;
-    transition:transform .11s linear;
-    transition:transform .11s linear, -webkit-transform .11s linear;
-    text-decoration:none;
-    -webkit-transition:background-color .3s ease-out;
-    -o-transition:background-color .3s ease-out;
-    transition:background-color .3s ease-out;
-    font-family: 'Open Sans', sans-serif;
+    left: 90%;
+    z-index: 3;
+    border: #fffdfe solid 5px;
+    border-radius: 15% 15% 15% 15% / 25% 25% 25% 25%;
+    -webkit-transition: -webkit-transform .11s linear;
+    transition: -webkit-transform .11s linear;
+    -o-transition: transform .11s linear;
+    transition: transform .11s linear;
+    transition: transform .11s linear, -webkit-transform .11s linear;
+    text-decoration: none;
+    -webkit-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out;
+    font-family: 'Open Sans', sans-serif
 }
+
 .about_button:hover {
     cursor:pointer;
     background-color:#258aff
@@ -118,33 +116,35 @@ body {
 }
 
 .about_button p:hover {
-    color: white;
+    color: #fff
 }
 
 .about_button a {
     text-decoration: none
 }
+
 .contact_button {
-    position:absolute;
-    background-color:#00103a;
-    width:8%;
-    height:5%;
-    top:40%;
-    left:90%;
-    z-index:3;
-    border:#fffdfe solid 5px;
-    border-radius:15% 15% 15% 15% / 25% 25% 25% 25%;
-    -webkit-transition:-webkit-transform .11s linear;
-    transition:-webkit-transform .11s linear;
-    -o-transition:transform .11s linear;
-    transition:transform .11s linear;
-    transition:transform .11s linear, -webkit-transform .11s linear;
-    text-decoration:none;
-    -webkit-transition:background-color .3s ease-out;
-    -o-transition:background-color .3s ease-out;
-    transition:background-color .3s ease-out;
-    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    background-color: #00103a;
+    width: 8%;
+    height: 5%;
+    top: 40%;
+    left: 90%;
+    z-index: 3;
+    border: #fffdfe solid 5px;
+    border-radius: 15% 15% 15% 15% / 25% 25% 25% 25%;
+    -webkit-transition: -webkit-transform .11s linear;
+    transition: -webkit-transform .11s linear;
+    -o-transition: transform .11s linear;
+    transition: transform .11s linear;
+    transition: transform .11s linear, -webkit-transform .11s linear;
+    text-decoration: none;
+    -webkit-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out;
+    font-family: 'Open Sans', sans-serif
 }
+
 .contact_button:hover {
     cursor:pointer;
     background-color:#258aff
@@ -160,12 +160,13 @@ body {
 }
 
 .contact_button p:hover {
-    color: white;
+    color: #fff
 }
 
 .contact_button a {
     text-decoration: none
 }
+
 .horizontal_rectangle {
     height:30%;
     width:100%;
@@ -173,6 +174,7 @@ body {
     position:absolute;
     top:20%
 }
+
 .horizontal_rectangle_border {
     height:34%;
     width:100%;
@@ -182,7 +184,7 @@ body {
     opacity:.3;
     z-index:0
 }
-/* H1 OF HOME, ABOUT AND CONTACT CONTENT */
+
 .h1_header {
     color: #fff;
     font-size: 600%;
@@ -191,7 +193,7 @@ body {
     top: 29%;
     z-index: 2
 }
-/* NAVIGATION TO THE FOOTER */
+
 .go_to_the_footer {
     position: absolute;
     top: 93%;
@@ -213,46 +215,45 @@ body {
 .arrow_icon:hover {
     color: #fff
 }
-/* FOOTER */
+
 .footer_icons {
     position: absolute;
     width: 100%;
     height: 7%;
-    background-color: #000121;
+    background-color: #000121
 }
 
 .facebook_footer_icon {
     position: absolute;
     padding-top: 1%;
     left: 35.25%;
-    text-decoration: none;
+    text-decoration: none
 }
 
 .facebook_footer_icon:hover {
-    cursor: pointer;
+    cursor: pointer
 }
 
 .mail_footer_icon {
     position: absolute;
     padding-top: 1%;
-    left: 47.75%;
+    left: 47.75%
 }
 
 .mail_footer_icon:hover {
-    cursor: pointer;
+    cursor: pointer
 }
 
 .instagram_footer_icon {
     position: absolute;
     padding-top: 1%;
-    left: 61%;
+    left: 61%
 }
 
 .instagram_footer_icon:hover {
-    cursor: pointer;
+    cursor: pointer
 }
 
-/* HOME CONTENT */
 #home_start_button {
     top: 22%;
     width: 20%;
@@ -268,7 +269,7 @@ body {
     transition: background-color .3s ease-out;
     -webkit-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
 }
 
 #home_start_button:hover {
@@ -283,35 +284,28 @@ body {
     font-weight: 800;
     margin-top: 10%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto
 }
 
-/* ABOUT CONTENT */
 #about_description {
     position: absolute;
     left: 26%;
     width: 58%;
     height: 100%;
-    z-index: 2;
-
+    z-index: 2
 }
 
 #about_app {
     color: #fff;
     font-size: 1.8em;
-    top:39%;
-    left:8%;
-    position:absolute;
-    text-align:center;
-    font-weight:500;
-    color:#FFF;
+    top: 39%;
+    left: 8%;
+    position: absolute;
+    text-align: center;
+    font-weight: 500;
+    color: #FFF
 }
 
-
-
-
-
-/* CONTACT CONTENT */
 #contact_icons {
     position:absolute;
     width:100%;
@@ -324,39 +318,40 @@ body {
 #contact_facebook_icon {
     position:absolute;
     padding-top:1%;
-    left:42.25%;
+    left: 42.25%
 }
 
 #contact_facebook_icon:hover {
-    cursor:pointer;
+    cursor: pointer
 }
+
 #contact_mail_icon {
     position:absolute;
     padding-top:1%;
     left:54.75%;
-    color:#fff;
+    color: #fff
 }
 
 #contact_mail_icon:hover {
-    cursor:pointer;
+    cursor: pointer
 }
+
 #contact_instagram_icon {
     position: absolute;
     padding-top: 1%;
-    left: 67%;
+    left: 67%
 }
 
 #contact_instagram_icon:hover {
-    cursor: pointer;
+    cursor: pointer
 }
 
-/* LOGIN CONTENT */
 #login_navigation_bar {
     width: 100%;
     position: absolute;
     top: 0;
     height: 10%;
-    background-color: #00103a;
+    background-color: #00103a
 }
 
 #login_navigation_bar_border {
@@ -378,34 +373,33 @@ body {
     z-index: 3;
     border: #fffdfe solid 5px;
     border-radius: 15% 15% 15% 15% / 25% 25% 25% 25%;
-    -webkit-transition: -webkit-transform 0.11s linear;
-    transition: -webkit-transform 0.11s linear;
-    -o-transition: transform 0.11s linear;
-    transition: transform 0.11s linear;
-    transition: transform 0.11s linear, -webkit-transform 0.11s linear;
+    -webkit-transition: -webkit-transform .11s linear;
+    transition: -webkit-transform .11s linear;
+    -o-transition: transform .11s linear;
+    transition: transform .11s linear;
+    transition: transform .11s linear, -webkit-transform .11s linear;
     text-decoration: none;
-    -webkit-transition: background-color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out;
-    transition: background-color 0.3s ease-out;
+    -webkit-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out
 }
 
 #login_home_button:hover {
     cursor: pointer;
-    background-color: #258aff;
-
+    background-color: #258aff
 }
 
 #login_home_button p {
     margin-top: 4.5%;
     margin-left: 8%;
-    color: white;
+    color: #fff;
     text-align: center;
     font-size: 1.6em;
-    font-weight: 600;
+    font-weight: 600
 }
 
 #login_home_button a {
-    text-decoration: none;
+    text-decoration: none
 }
 
 #login_about_button {
@@ -418,33 +412,33 @@ body {
     z-index: 3;
     border: #fffdfe solid 5px;
     border-radius: 15% 15% 15% 15% / 25% 25% 25% 25%;
-    -webkit-transition: -webkit-transform 0.11s linear;
-    transition: -webkit-transform 0.11s linear;
-    -o-transition: transform 0.11s linear;
-    transition: transform 0.11s linear;
-    transition: transform 0.11s linear, -webkit-transform 0.11s linear;
+    -webkit-transition: -webkit-transform .11s linear;
+    transition: -webkit-transform .11s linear;
+    -o-transition: transform .11s linear;
+    transition: transform .11s linear;
+    transition: transform .11s linear, -webkit-transform .11s linear;
     text-decoration: none;
-    -webkit-transition: background-color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out;
-    transition: background-color 0.3s ease-out;
+    -webkit-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out
 }
 
 #login_about_button:hover {
     cursor: pointer;
-    background-color: #258aff;
+    background-color: #258aff
 }
 
 #login_about_button p {
     margin-left: 8%;
     margin-top: 4.5%;
-    color: white;
+    color: #fff;
     text-align: center;
     font-size: 1.6em;
-    font-weight: 600;
+    font-weight: 600
 }
 
 #login_about_button a {
-    text-decoration: none;
+    text-decoration: none
 }
 
 #login_contact_button {
@@ -457,33 +451,33 @@ body {
     z-index: 3;
     border: #fffdfe solid 5px;
     border-radius: 15% 15% 15% 15% / 25% 25% 25% 25%;
-    -webkit-transition: -webkit-transform 0.11s linear;
-    transition: -webkit-transform 0.11s linear;
-    -o-transition: transform 0.11s linear;
-    transition: transform 0.11s linear;
-    transition: transform 0.11s linear, -webkit-transform 0.11s linear;
+    -webkit-transition: -webkit-transform .11s linear;
+    transition: -webkit-transform .11s linear;
+    -o-transition: transform .11s linear;
+    transition: transform .11s linear;
+    transition: transform .11s linear, -webkit-transform .11s linear;
     text-decoration: none;
-    -webkit-transition: background-color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out;
-    transition: background-color 0.3s ease-out;
+    -webkit-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out
 }
 
 #login_contact_button:hover {
     cursor: pointer;
-    background-color: #258aff;
+    background-color: #258aff
 }
 
 #login_contact_button p {
     margin-left: 8%;
     margin-top: 4.5%;
-    color: white;
+    color: #fff;
     text-align: center;
     font-size: 1.6em;
-    font-weight: 600;
+    font-weight: 600
 }
 
 #login_contact_button a {
-    text-decoration: none;
+    text-decoration: none
 }
 
 #login_horizontal_rectangle {
@@ -504,8 +498,7 @@ body {
     opacity: .3;
     z-index: 0
 }
-/* SIGN IN CONTENT */
-/* SIGN IN BUTTONS */
+
 #sign_in_button {
     top: 35%;
     width: 20%;
@@ -546,7 +539,7 @@ body {
     left: 70%;
     bottom: 32%
 }
-/*VFGHJFHJFHJF*/
+
 #sign_up_button {
     top: 35%;
     width: 20%;
@@ -588,22 +581,21 @@ body {
     bottom: 32%
 }
 
-
 #sign_in_navigation_bar {
     width: 100%;
     position: absolute;
-    top: 0%;
+    top: 0;
     height: 10%;
-    background-color: #00103a;
+    background-color: #00103a
 }
 
 #sign_in_navigation_bar_border {
     width: 100%;
     position: absolute;
-    top: 0%;
+    top: 0;
     height: 11%;
     background-color: #00103a;
-    opacity: 0.3;
+    opacity: .3
 }
 
 #sign_in_home_button {
@@ -616,34 +608,33 @@ body {
     z-index: 3;
     border: #fffdfe solid 5px;
     border-radius: 15% 15% 15% 15% / 25% 25% 25% 25%;
-    -webkit-transition: -webkit-transform 0.11s linear;
-    transition: -webkit-transform 0.11s linear;
-    -o-transition: transform 0.11s linear;
-    transition: transform 0.11s linear;
-    transition: transform 0.11s linear, -webkit-transform 0.11s linear;
+    -webkit-transition: -webkit-transform .11s linear;
+    transition: -webkit-transform .11s linear;
+    -o-transition: transform .11s linear;
+    transition: transform .11s linear;
+    transition: transform .11s linear, -webkit-transform .11s linear;
     text-decoration: none;
-    -webkit-transition: background-color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out;
-    transition: background-color 0.3s ease-out;
+    -webkit-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out
 }
 
 #sign_in_home_button:hover {
     cursor: pointer;
-    background-color: #258aff;
-
+    background-color: #258aff
 }
 
 #sign_in_home_button p {
     margin-left: 8%;
     margin-top: 4.5%;
-    color: white;
+    color: #fff;
     text-align: center;
     font-size: 1.6em;
-    font-weight: 600;
+    font-weight: 600
 }
 
 #sign_in_home_button a {
-    text-decoration: none;
+    text-decoration: none
 }
 
 #sign_in_about_button {
@@ -656,33 +647,33 @@ body {
     z-index: 3;
     border: #fffdfe solid 5px;
     border-radius: 15% 15% 15% 15% / 25% 25% 25% 25%;
-    -webkit-transition: -webkit-transform 0.11s linear;
-    transition: -webkit-transform 0.11s linear;
-    -o-transition: transform 0.11s linear;
-    transition: transform 0.11s linear;
-    transition: transform 0.11s linear, -webkit-transform 0.11s linear;
+    -webkit-transition: -webkit-transform .11s linear;
+    transition: -webkit-transform .11s linear;
+    -o-transition: transform .11s linear;
+    transition: transform .11s linear;
+    transition: transform .11s linear, -webkit-transform .11s linear;
     text-decoration: none;
-    -webkit-transition: background-color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out;
-    transition: background-color 0.3s ease-out;
+    -webkit-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out
 }
 
 #sign_in_about_button:hover {
     cursor: pointer;
-    background-color: #258aff;
+    background-color: #258aff
 }
 
 #sign_in_about_button p {
     margin-left: 8%;
     margin-top: 4.5%;
-    color: white;
+    color: #fff;
     text-align: center;
     font-size: 1.6em;
-    font-weight: 600;
+    font-weight: 600
 }
 
 #sign_in_about_button a {
-    text-decoration: none;
+    text-decoration: none
 }
 
 #sign_in_contact_button {
@@ -695,33 +686,33 @@ body {
     z-index: 3;
     border: #fffdfe solid 5px;
     border-radius: 15% 15% 15% 15% / 25% 25% 25% 25%;
-    -webkit-transition: -webkit-transform 0.11s linear;
-    transition: -webkit-transform 0.11s linear;
-    -o-transition: transform 0.11s linear;
-    transition: transform 0.11s linear;
-    transition: transform 0.11s linear, -webkit-transform 0.11s linear;
+    -webkit-transition: -webkit-transform .11s linear;
+    transition: -webkit-transform .11s linear;
+    -o-transition: transform .11s linear;
+    transition: transform .11s linear;
+    transition: transform .11s linear, -webkit-transform .11s linear;
     text-decoration: none;
-    -webkit-transition: background-color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out;
-    transition: background-color 0.3s ease-out;
+    -webkit-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out
 }
 
 #sign_in_contact_button:hover {
     cursor: pointer;
-    background-color: #258aff;
+    background-color: #258aff
 }
 
 #sign_in_contact_button p {
     margin-left: 8%;
     margin-top: 4.5%;
-    color: white;
+    color: #fff;
     text-align: center;
     font-size: 1.6em;
-    font-weight: 600;
+    font-weight: 600
 }
 
 #sign_in_contact_button a {
-    text-decoration: none;
+    text-decoration: none
 }
 
 #sign_in_horizontal_rectangle {
@@ -730,7 +721,7 @@ body {
     background-color: #000121;
     position: absolute;
     top: 23%;
-    z-index: 1;
+    z-index: 1
 }
 
 #sign_in_horizontal_rectangle_border {
@@ -739,8 +730,8 @@ body {
     background-color: #00042a;
     position: absolute;
     top: 21%;
-    opacity: 0.3;
-    z-index: 0;
+    opacity: .3;
+    z-index: 0
 }
 
 #sign_in_h1_header {
@@ -749,7 +740,7 @@ body {
     position: absolute;
     left: 43.1%;
     top: 13%;
-    z-index: 2;
+    z-index: 2
 }
 
 #sign_in_form {
@@ -758,87 +749,86 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 7%;
-    padding: 5%;
+    padding: 5%
 }
 
 input {
     margin-left: 17.5%;
     margin-top: 1.5%;
     width: 57%;
-    background-color: #000121;;
+    background-color: #000121;
     border: none;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid #fff;
     font-size: 1.5em;
-    color: #000000;
+    color: #000;
     padding-top: 1.5%;
-    padding-bottom: 0.5%;
+    padding-bottom: .5%;
     margin-bottom: 1%;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-
+    box-sizing: border-box
 }
 
 input:focus {
     border: none;
     border-bottom: 4px solid #254eff;
-    outline: none;
+    outline: none
 }
 
 input, select, textarea {
-    color: white;
+    color: #fff
 }
 
 ::-webkit-input-placeholder {
     text-align: center;
-    color: white;
+    color: #fff;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 1em
 }
 
 ::-moz-placeholder {
     text-align: center;
-    color: white;
+    color: #fff;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 1em
 }
 
 :-ms-input-placeholder {
     text-align: center;
-    color: white;
+    color: #fff;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 1em
 }
 
 ::-ms-input-placeholder {
     text-align: center;
-    color: white;
+    color: #fff;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 1em
 }
 
 ::placeholder {
     text-align: center;
-    color: white;
+    color: #fff;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 1em
 }
 
 #login {
     border: none;
-    color: black;
+    color: #000;
     margin-top: 6.5%;
     background-color: #0056d7;
     font-weight: 700;
-    -webkit-transition: background-color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out;
-    transition: background-color 0.3s ease-out;
+    -webkit-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out;
     margin-bottom: 4%;
     padding-top: 1.5%;
-    padding-bottom: 1.5%;
+    padding-bottom: 1.5%
 }
 
 #login:hover {
-    background: #1c29a0;
+    background: #1c29a0
 }
 
 #wrong_data {
@@ -849,43 +839,41 @@ input, select, textarea {
     position: absolute;
     font-size: 1.3em;
     bottom: 28%;
-    display: none;
+    display: none
 }
 
 p {
     text-align: center;
     margin-right: 9%;
-    color: white;
+    color: #fff;
     font-weight: 500;
     cursor: pointer;
-    margin-bottom: 1.5%;
+    margin-bottom: 1.5%
 }
 
 p:hover {
-    color: #258aff;
+    color: #258aff
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none
 }
 
-
-/* SIGN UP */
 #sign_up_navigation_bar {
     width: 100%;
     position: absolute;
-    top: 0%;
+    top: 0;
     height: 10%;
-    background-color: #00103a;
+    background-color: #00103a
 }
 
 #sign_up_navigation_bar_border {
     width: 100%;
     position: absolute;
-    top: 0%;
+    top: 0;
     height: 11%;
     background-color: #00103a;
-    opacity: 0.3;
+    opacity: .3
 }
 
 #sign_up_home_button {
@@ -898,34 +886,33 @@ a {
     z-index: 3;
     border: #fffdfe solid 5px;
     border-radius: 15% 15% 15% 15% / 25% 25% 25% 25%;
-    -webkit-transition: -webkit-transform 0.11s linear;
-    transition: -webkit-transform 0.11s linear;
-    -o-transition: transform 0.11s linear;
-    transition: transform 0.11s linear;
-    transition: transform 0.11s linear, -webkit-transform 0.11s linear;
+    -webkit-transition: -webkit-transform .11s linear;
+    transition: -webkit-transform .11s linear;
+    -o-transition: transform .11s linear;
+    transition: transform .11s linear;
+    transition: transform .11s linear, -webkit-transform .11s linear;
     text-decoration: none;
-    -webkit-transition: background-color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out;
-    transition: background-color 0.3s ease-out;
+    -webkit-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out
 }
 
 #sign_up_home_button:hover {
     cursor: pointer;
-    background-color: #258aff;
-
+    background-color: #258aff
 }
 
 #sign_up_home_button p {
     margin-left: 8%;
     margin-top: 4.5%;
-    color: white;
+    color: #fff;
     text-align: center;
     font-size: 1.6em;
-    font-weight: 600;
+    font-weight: 600
 }
 
 #sign_up_home_button a {
-    text-decoration: none;
+    text-decoration: none
 }
 
 #sign_up_about_button {
@@ -938,33 +925,33 @@ a {
     z-index: 3;
     border: #fffdfe solid 5px;
     border-radius: 15% 15% 15% 15% / 25% 25% 25% 25%;
-    -webkit-transition: -webkit-transform 0.11s linear;
-    transition: -webkit-transform 0.11s linear;
-    -o-transition: transform 0.11s linear;
-    transition: transform 0.11s linear;
-    transition: transform 0.11s linear, -webkit-transform 0.11s linear;
+    -webkit-transition: -webkit-transform .11s linear;
+    transition: -webkit-transform .11s linear;
+    -o-transition: transform .11s linear;
+    transition: transform .11s linear;
+    transition: transform .11s linear, -webkit-transform .11s linear;
     text-decoration: none;
-    -webkit-transition: background-color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out;
-    transition: background-color 0.3s ease-out;
+    -webkit-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out
 }
 
 #sign_up_about_button:hover {
     cursor: pointer;
-    background-color: #258aff;
+    background-color: #258aff
 }
 
 #sign_up_about_button p {
     margin-left: 8%;
     margin-top: 4.5%;
-    color: white;
+    color: #fff;
     text-align: center;
     font-size: 1.6em;
-    font-weight: 600;
+    font-weight: 600
 }
 
 #sign_up_about_button a {
-    text-decoration: none;
+    text-decoration: none
 }
 
 #sign_up_contact_button {
@@ -977,33 +964,33 @@ a {
     z-index: 3;
     border: #fffdfe solid 5px;
     border-radius: 15% 15% 15% 15% / 25% 25% 25% 25%;
-    -webkit-transition: -webkit-transform 0.11s linear;
-    transition: -webkit-transform 0.11s linear;
-    -o-transition: transform 0.11s linear;
-    transition: transform 0.11s linear;
-    transition: transform 0.11s linear, -webkit-transform 0.11s linear;
+    -webkit-transition: -webkit-transform .11s linear;
+    transition: -webkit-transform .11s linear;
+    -o-transition: transform .11s linear;
+    transition: transform .11s linear;
+    transition: transform .11s linear, -webkit-transform .11s linear;
     text-decoration: none;
-    -webkit-transition: background-color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out;
-    transition: background-color 0.3s ease-out;
+    -webkit-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out
 }
 
 #sign_up_contact_button:hover {
     cursor: pointer;
-    background-color: #258aff;
+    background-color: #258aff
 }
 
 #sign_up_contact_button p {
     margin-left: 8%;
     margin-top: 4.5%;
-    color: white;
+    color: #fff;
     text-align: center;
     font-size: 1.6em;
-    font-weight: 600;
+    font-weight: 600
 }
 
 #sign_up_contact_button a {
-    text-decoration: none;
+    text-decoration: none
 }
 
 #sign_up_horizontal_rectangle {
@@ -1012,7 +999,7 @@ a {
     background-color: #000121;
     position: absolute;
     top: 23%;
-    z-index: 1;
+    z-index: 1
 }
 
 #sign_up_horizontal_rectangle_border {
@@ -1021,8 +1008,8 @@ a {
     background-color: #00042a;
     position: absolute;
     top: 21%;
-    opacity: 0.3;
-    z-index: 0;
+    opacity: .3;
+    z-index: 0
 }
 
 #sign_up_h1_header {
@@ -1031,16 +1018,16 @@ a {
     position: absolute;
     left: 42.6%;
     top: 5%;
-    z-index: 2;
+    z-index: 2
 }
-/* SIGN UP FORM */
+
 #sign_up_form {
     width: 30%;
     height: 40%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2.5%;
-    padding: 5%;
+    padding: 5%
 }
 
 input {
@@ -1048,96 +1035,96 @@ input {
     width: 57%;
     background-color: #000121;
     border: none;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid #fff;
     font-size: 1.5em;
-    color: #000000;
+    color: #000;
     padding-top: 1.5%;
-    padding-bottom: 0.5%;
+    padding-bottom: .5%;
     margin-bottom: 2%;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
 input:focus {
     border: none;
     border-bottom: 4px solid #254eff;
-    outline: none;
+    outline: none
 }
 
 input, select, textarea {
-    color: white;
+    color: #fff
 }
 
 ::-webkit-input-placeholder {
     text-align: center;
-    color: white;
+    color: #fff;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: .8em
 }
 
 ::-moz-placeholder {
     text-align: center;
-    color: white;
+    color: #fff;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: .8em
 }
 
 :-ms-input-placeholder {
     text-align: center;
-    color: white;
+    color: #fff;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: .8em
 }
 
 ::-ms-input-placeholder {
     text-align: center;
-    color: white;
+    color: #fff;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: .8em
 }
 
 ::placeholder {
     text-align: center;
-    color: white;
+    color: #fff;
     font-weight: 500;
-    font-size: 0.75em;
+    font-size: .75em
 }
 
 #register {
-    color: black;
+    color: #000;
     border: none;
     margin-top: 3.5%;
     background-color: #0056d7;
     font-weight: 700;
-    -webkit-transition: background-color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out;
-    transition: background-color 0.3s ease-out;
+    -webkit-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out;
     margin-bottom: 4%;
     padding-top: 1.5%;
-    padding-bottom: 1.5%;
+    padding-bottom: 1.5%
 }
 
 #register:hover {
-    background: #1c29a0;
+    background: #1c29a0
 }
 
 p {
     text-align: center;
     margin-right: 9%;
-    color: white;
+    color: #fff;
     font-weight: 500;
     cursor: pointer;
-    margin-bottom: 2%;
+    margin-bottom: 2%
 }
 
 p:hover {
-    color: #258aff;
+    color: #258aff
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none
 }
-/* ANIMATION */
+
 .context {
     width: 100%;
     position: absolute;
@@ -1148,8 +1135,9 @@ a {
     background-color: #1c29a0;
     background-image: url(../background_patterns/swirl.png);
     width: 100%;
-    height:100vh
+    height: 100vh
 }
+
 .circles {
     position:absolute;
     top:0;
@@ -1158,6 +1146,7 @@ a {
     height:100%;
     overflow:hidden
 }
+
 .circles li {
     position:absolute;
     display:block;
@@ -1169,6 +1158,7 @@ a {
     animation:animate 25s linear infinite;
     bottom:-150px
 }
+
 .circles li:nth-child(1) {
     background-image:url(../flags/japan.png);
     left:25%;
@@ -1179,6 +1169,7 @@ a {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 .circles li:nth-child(2) {
     background-image:url(../flags/spain.png);
     left:10%;
@@ -1189,6 +1180,7 @@ a {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 .circles li:nth-child(3) {
     background-image:url(../flags/italy.png);
     left:70%;
@@ -1199,17 +1191,19 @@ a {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 .circles li:nth-child(4) {
     background-image: url(../flags/uk.png);
     margin-bottom: 10px;
     left: 40%;
     width: 150px;
     height: 150px;
-    -webkit-animation-delay: 0s;
-    animation-delay: 0s;
+    -webkit-animation-delay: 0;
+    animation-delay: 0;
     -webkit-animation-duration: 10s;
     animation-duration: 10s
 }
+
 .circles li:nth-child(5) {
     background-image:url(../flags/france.png);
     left:65%;
@@ -1220,6 +1214,7 @@ a {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 .circles li:nth-child(6) {
     background-image:url(../flags/uk.png);
     left:85%;
@@ -1230,6 +1225,7 @@ a {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 .circles li:nth-child(7) {
     background-image:url(../flags/germany.png);
     left:35%;
@@ -1240,6 +1236,7 @@ a {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 .circles li:nth-child(8) {
     background-image:url(../flags/uk.png);
     left:5%;
@@ -1250,6 +1247,7 @@ a {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 .circles li:nth-child(9) {
     background-image:url(../flags/corea.png);
     left:50%;
@@ -1260,6 +1258,7 @@ a {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 .circles li:nth-child(10) {
     background-image:url(../flags/russia.png);
     left:65%;
@@ -1270,16 +1269,18 @@ a {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 .circles li:nth-child(11) {
     background-image: url(../flags/portugal.png);
     left: 85%;
     width: 150px;
     height: 150px;
-    -webkit-animation-delay: 0s;
-    animation-delay: 0s;
+    -webkit-animation-delay: 0;
+    animation-delay: 0;
     -webkit-animation-duration: 10s;
     animation-duration: 10s
 }
+
 .circles li:nth-child(12) {
     background-image:url(../flags/italy.png);
     left:22%;
@@ -1290,6 +1291,7 @@ a {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 @-webkit-keyframes animate {
     0% {
         -webkit-transform:translateY(0) rotate(0deg);
@@ -1305,6 +1307,7 @@ a {
         border-radius:20%
     }
 }
+
 @keyframes animate {
     0% {
         -webkit-transform:translateY(0) rotate(0deg);

@@ -1,88 +1,108 @@
-@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+@import "https://fonts.googleapis.com/css?family=Exo:400,700";
+
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth
 }
 
 body {
     font-family: 'Exo', sans-serif;
     height: 100%;
     width: 100%;
-    overflow-y: hidden;
+    overflow-y: hidden
 }
 
-.side_bar{
+.side_bar {
     position: absolute;
-    height: 50%;
-    top: 29%;
-    right: 0%;
+    height: 55%;
+    top: 26.5%;
+    right: 0;
     width: 3.2%;
     background-color: #00103a;
-    border-radius: 40px 0px 0px 40px;
-
+    border-radius: 40px 0 0 40px
 }
+
 .user_icon {
     margin-left: 26%;
-    margin-top: 160%;
+    margin-top: 110%
 }
-.user_icon:hover{
+
+.user_icon:hover {
     cursor: pointer;
     -webkit-filter: brightness(70%);
-    filter: brightness(70%);
+    filter: brightness(70%)
 }
-.email_icon{
+
+.email_icon {
     margin-left: 26%;
-    margin-top: 145%;
+    margin-top: 110%
 }
-.email_icon:hover{
+
+.email_icon:hover {
     cursor: pointer;
     -webkit-filter: brightness(70%);
-    filter: brightness(70%);
+    filter: brightness(70%)
 }
+
 .settings_icon {
     margin-left: 26%;
-    margin-top: 145%;
+    margin-top: 110%
 }
-.settings_icon:hover{
+
+.settings_icon:hover {
     cursor: pointer;
     -webkit-filter: brightness(70%);
-    filter: brightness(70%);
+    filter: brightness(70%)
+}
+
+.invite_icon {
+    margin-left: 26%;
+    margin-top: 110%
+}
+
+.invite_icon:hover {
+    cursor: pointer;
+    -webkit-filter: brightness(70%);
+    filter: brightness(70%)
 }
 
 #navigation_bar {
     width: 100%;
     position: absolute;
-    top: 0%;
+    top: 0;
     height: 7%;
-    background-color: #00103a;
+    background-color: #00103a
 }
-#logo{
+
+#logo {
     position: absolute;
     left: 1%;
     top: 1%;
     width: 2.5%;
-    z-index: 2;
+    z-index: 2
 }
-#logo:hover{
+
+#logo:hover {
     cursor: pointer;
     -webkit-filter: brightness(70%);
-    filter: brightness(70%);
+    filter: brightness(70%)
 }
-#logout_icon{
+
+#logout_icon {
     position: absolute;
     right: 1%;
     top: 35%;
-    z-index: 2;
+    z-index: 2
 }
 
 #logout_icon:hover {
     cursor: pointer;
     -webkit-filter: brightness(70%);
-    filter: brightness(70%);
+    filter: brightness(70%)
 }
 
 #user_name {
@@ -90,20 +110,18 @@ body {
     right: 4%;
     top: 40%;
     z-index: 2;
-    color: white;
-    font-size: 1em;
+    color: #fff;
+    font-size: 1em
 }
 
 #navigation_bar_border {
     width: 100%;
     position: absolute;
-    top: 0%;
+    top: 0;
     height: 8%;
     background-color: #00103a;
-    opacity: 0.3;
+    opacity: .3
 }
-
-
 
 #user_rectangle {
     position: absolute;
@@ -111,16 +129,16 @@ body {
     width: 60%;
     height: 80%;
     margin-left: 20%;
-    border-radius: 8%;
-    background-color: #00103a;
+    border-radius: 6%;
+    background-color: #00103a
 }
 
 #user_title_row_h1 {
     margin-top: 4%;
     text-align: center;
-    color: white;
+    color: #fff;
     font-size: 3em;
-    line-height: 180%;
+    line-height: 180%
 }
 
 #my_sets_button {
@@ -138,8 +156,7 @@ body {
     transition: background-color .3s ease-out;
     -webkit-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-
+    transition: all .4s ease-in-out
 }
 
 #my_sets_button:hover {
@@ -152,7 +169,7 @@ body {
     text-align: center;
     font-size: 2em;
     font-weight: 600;
-    margin-top: 13%;
+    margin-top: 13%
 }
 
 #new_set_button {
@@ -170,7 +187,7 @@ body {
     transition: background-color .3s ease-out;
     -webkit-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
 }
 
 #new_set_button:hover {
@@ -183,7 +200,7 @@ body {
     text-align: center;
     font-size: 2em;
     font-weight: 800;
-    margin-top: 13%;
+    margin-top: 13%
 }
 
 #additional_content {
@@ -192,21 +209,22 @@ body {
     width: 66%;
     height: 45%;
     margin-left: 17%;
-    background-color: #00103a;
+    background-color: #00103a
 }
-
 
 .context {
     width:100%;
     position:absolute;
     top:10vh
 }
+
 .area {
     background-color:#1c29a0;
     background-image:url(../background_patterns/swirl.png);
     width:100%;
     height:100vh
 }
+
 .circles {
     position:absolute;
     top:0;
@@ -215,6 +233,7 @@ body {
     height:100%;
     overflow:hidden
 }
+
 .circles li {
     position:absolute;
     display:block;
@@ -226,6 +245,7 @@ body {
     animation:animate 25s linear infinite;
     bottom:-150px
 }
+
 .circles li:nth-child(1) {
     background-image:url(../flags/japan.png);
     left:25%;
@@ -236,6 +256,7 @@ body {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 .circles li:nth-child(2) {
     background-image:url(../flags/spain.png);
     left:10%;
@@ -246,6 +267,7 @@ body {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 .circles li:nth-child(3) {
     background-image:url(../flags/italy.png);
     left:70%;
@@ -256,6 +278,7 @@ body {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 .circles li:nth-child(4) {
     background-image:url(../flags/uk.png);
     margin-bottom:10px;
@@ -267,6 +290,7 @@ body {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 .circles li:nth-child(5) {
     background-image:url(../flags/france.png);
     left:70%;
@@ -277,6 +301,7 @@ body {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 .circles li:nth-child(6) {
     background-image:url(../flags/uk.png);
     left:85%;
@@ -287,6 +312,7 @@ body {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 .circles li:nth-child(7) {
     background-image:url(../flags/germany.png);
     left:35%;
@@ -297,6 +323,7 @@ body {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 .circles li:nth-child(8) {
     background-image:url(../flags/uk.png);
     left:5%;
@@ -307,6 +334,7 @@ body {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 .circles li:nth-child(9) {
     background-image:url(../flags/corea.png);
     left:50%;
@@ -317,6 +345,7 @@ body {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 .circles li:nth-child(10) {
     background-image:url(../flags/russia.png);
     left:75%;
@@ -327,6 +356,7 @@ body {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 .circles li:nth-child(11) {
     background-image:url(../flags/portugal.png);
     left:85%;
@@ -337,6 +367,7 @@ body {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 .circles li:nth-child(12) {
     background-image:url(../flags/italy.png);
     left:22%;
@@ -347,6 +378,7 @@ body {
     -webkit-animation-duration:10s;
     animation-duration:10s
 }
+
 @-webkit-keyframes animate {
     0% {
         -webkit-transform:translateY(0) rotate(0deg);
@@ -362,6 +394,7 @@ body {
         border-radius:20%
     }
 }
+
 @keyframes animate {
     0% {
         -webkit-transform:translateY(0) rotate(0deg);

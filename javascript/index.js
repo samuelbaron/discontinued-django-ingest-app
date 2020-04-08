@@ -103,4 +103,3 @@ function open_contact_content_from_sign_up_content() {
     document.getElementById("about_content").style.display = "none";
     document.getElementById("contact_content").style.display = "block";
 }
-

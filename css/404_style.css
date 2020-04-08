@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+@import "https://fonts.googleapis.com/css?family=Exo:400,700";
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth
 }
 
 body {
     font-family: 'Exo', sans-serif;
     height: 100%;
     width: 100%;
-    overflow-y: hidden;
+    overflow-y: hidden
 }
 
 .horizontal_rectangle {
@@ -23,16 +23,18 @@ body {
     position:absolute;
     top:32%
 }
+
 .horizontal_rectangle_border {
-    height:38%;
-    width:100%;
-    background-color:#00042a;
-    position:absolute;
-    top:30%;
-    opacity:.3;
-    z-index:0
+    height: 38%;
+    width: 100%;
+    background-color: #00042a;
+    position: absolute;
+    top: 30%;
+    opacity: .3;
+    z-index: 0
 }
-#page_not_found{
+
+#page_not_found {
     color: #fff;
     font-size: 5.3em;
     position: absolute;
@@ -40,26 +42,30 @@ body {
     top: 29%;
     z-index: 2
 }
-#error{
+
+#error {
     font-size: 5.3em;
     position: absolute;
     left: 29%;
     top: 29%;
     z-index: 2;
-    color: #0067ff;
+    color: #0067ff
 }
-p{
+
+p {
     font-size: 2.2em;
     position: absolute;
     left: 35.9%;
     top: 59%;
     z-index: 2;
-    color: #ffffff;
-    font-weight: 700;
+    color: #fff;
+    font-weight: 700
 }
-p:hover{
-    opacity: 0.7;
+
+p:hover {
+    opacity: .7
 }
+
 .context {
     width: 100%;
     position: absolute;
@@ -229,7 +235,6 @@ p:hover{
 
 @-webkit-keyframes animate {
     0% {
-
         -webkit-transform: translateY(0) rotate(0deg);
         transform: translateY(0) rotate(0deg);
         opacity: 1;

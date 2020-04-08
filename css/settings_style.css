@@ -1,73 +1,70 @@
-@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+@import "https://fonts.googleapis.com/css?family=Exo:400,700";
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth
 }
 
 body {
     font-family: 'Exo', sans-serif;
     height: 100%;
     width: 100%;
-    overflow-y: hidden;
+    overflow-y: hidden
 }
-
 
 .side_bar {
     position: absolute;
     height: 50%;
     top: 29%;
-    right: 0%;
+    right: 0;
     width: 3.2%;
     background-color: #00103a;
-    border-radius: 40px 0px 0px 40px;
-
+    border-radius: 40px 0 0 40px
 }
 
 .user_icon {
     margin-left: 26%;
-    margin-top: 160%;
+    margin-top: 160%
 }
 
 .user_icon:hover {
     cursor: pointer;
     -webkit-filter: brightness(70%);
-    filter: brightness(70%);
+    filter: brightness(70%)
 }
 
 .email_icon {
     margin-left: 26%;
-    margin-top: 145%;
+    margin-top: 145%
 }
 
 .email_icon:hover {
     cursor: pointer;
     -webkit-filter: brightness(70%);
-    filter: brightness(70%);
+    filter: brightness(70%)
 }
 
 .settings_icon {
     margin-left: 26%;
-    margin-top: 145%;
+    margin-top: 145%
 }
 
 .settings_icon:hover {
     cursor: pointer;
     -webkit-filter: brightness(70%);
-    filter: brightness(70%);
+    filter: brightness(70%)
 }
-
 
 #navigation_bar {
     width: 100%;
     position: absolute;
-    top: 0%;
+    top: 0;
     height: 7%;
-    background-color: #00103a;
+    background-color: #00103a
 }
 
 #logo {
@@ -75,26 +72,26 @@ body {
     left: 1%;
     top: 1%;
     width: 2.5%;
-    z-index: 2;
+    z-index: 2
 }
 
 #logo:hover {
     cursor: pointer;
     -webkit-filter: brightness(70%);
-    filter: brightness(70%);
+    filter: brightness(70%)
 }
 
 #logout_icon {
     position: absolute;
     right: 1%;
     top: 35%;
-    z-index: 2;
+    z-index: 2
 }
 
 #logout_icon:hover {
     cursor: pointer;
     -webkit-filter: brightness(70%);
-    filter: brightness(70%);
+    filter: brightness(70%)
 }
 
 #name {
@@ -102,19 +99,18 @@ body {
     right: 4%;
     top: 40%;
     z-index: 2;
-    color: white;
-    font-size: 1em;
+    color: #fff;
+    font-size: 1em
 }
 
 #navigation_bar_border {
     width: 100%;
     position: absolute;
-    top: 0%;
+    top: 0;
     height: 8%;
     background-color: #00103a;
-    opacity: 0.3;
+    opacity: .3
 }
-
 
 #settings_rectangle {
     position: absolute;
@@ -123,17 +119,16 @@ body {
     height: 70%;
     margin-left: 35%;
     border-radius: 10%;
-    background-color: #00103a;
+    background-color: #00103a
 }
 
 #settings_title_row_h1 {
     margin-top: 5%;
     text-align: center;
-    color: white;
+    color: #fff;
     font-size: 3em;
-    line-height: 180%;
+    line-height: 180%
 }
-
 
 .context {
     width: 100%;
@@ -333,4 +328,3 @@ body {
         border-radius: 20%
     }
 }
-

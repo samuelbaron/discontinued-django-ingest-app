@@ -1,71 +1,70 @@
-@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+@import "https://fonts.googleapis.com/css?family=Exo:400,700";
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth
 }
 
 body {
     font-family: 'Exo', sans-serif;
     height: 100%;
     width: 100%;
-    overflow-y: hidden;
+    overflow-y: hidden
 }
 
 .side_bar {
     position: absolute;
     height: 50%;
     top: 29%;
-    right: 0%;
+    right: 0;
     width: 3.2%;
     background-color: #00103a;
-    border-radius: 40px 0px 0px 40px;
-
+    border-radius: 40px 0 0 40px
 }
 
 .user_icon {
     margin-left: 26%;
-    margin-top: 160%;
+    margin-top: 160%
 }
 
 .user_icon:hover {
     cursor: pointer;
     -webkit-filter: brightness(70%);
-    filter: brightness(70%);
+    filter: brightness(70%)
 }
 
 .email_icon {
     margin-left: 26%;
-    margin-top: 145%;
+    margin-top: 145%
 }
 
 .email_icon:hover {
     cursor: pointer;
     -webkit-filter: brightness(70%);
-    filter: brightness(70%);
+    filter: brightness(70%)
 }
 
 .settings_icon {
     margin-left: 26%;
-    margin-top: 145%;
+    margin-top: 145%
 }
 
 .settings_icon:hover {
     cursor: pointer;
     -webkit-filter: brightness(70%);
-    filter: brightness(70%);
+    filter: brightness(70%)
 }
 
 #navigation_bar {
     width: 100%;
     position: absolute;
-    top: 0%;
+    top: 0;
     height: 7%;
-    background-color: #00103a;
+    background-color: #00103a
 }
 
 #logo {
@@ -73,26 +72,26 @@ body {
     left: 1%;
     top: 1%;
     width: 2.5%;
-    z-index: 2;
+    z-index: 2
 }
 
 #logo:hover {
     cursor: pointer;
     -webkit-filter: brightness(70%);
-    filter: brightness(70%);
+    filter: brightness(70%)
 }
 
 #logout_icon {
     position: absolute;
     right: 1%;
     top: 35%;
-    z-index: 2;
+    z-index: 2
 }
 
 #logout_icon:hover {
     cursor: pointer;
     -webkit-filter: brightness(70%);
-    filter: brightness(70%);
+    filter: brightness(70%)
 }
 
 #name {
@@ -100,19 +99,18 @@ body {
     right: 4%;
     top: 40%;
     z-index: 2;
-    color: white;
-    font-size: 1em;
+    color: #fff;
+    font-size: 1em
 }
 
 #navigation_bar_border {
     width: 100%;
     position: absolute;
-    top: 0%;
+    top: 0;
     height: 8%;
     background-color: #00103a;
-    opacity: 0.3;
+    opacity: .3
 }
-
 
 #email_rectangle {
     position: absolute;
@@ -121,19 +119,19 @@ body {
     height: 70%;
     margin-left: 35%;
     border-radius: 10%;
-    background-color: #00103a;
+    background-color: #00103a
 }
 
 #email_title_row_h1 {
     margin-top: 5%;
     text-align: center;
-    color: white;
+    color: #fff;
     font-size: 3em;
-    line-height: 180%;
+    line-height: 180%
 }
 
 #contact_form {
-    position: absolute;
+    position: absolute
 }
 
 .form_input {
@@ -145,42 +143,42 @@ body {
     outline: none;
     border-bottom: 2px solid #254eff;
     color: #fff;
-    margin-top: 7%;
+    margin-top: 7%
 }
 
 ::-webkit-input-placeholder {
     text-align: center;
-    color: white;
+    color: #fff;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: .8em
 }
 
 ::-moz-placeholder {
     text-align: center;
-    color: white;
+    color: #fff;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: .8em
 }
 
 :-ms-input-placeholder {
     text-align: center;
-    color: white;
+    color: #fff;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: .8em
 }
 
 ::-ms-input-placeholder {
     text-align: center;
-    color: white;
+    color: #fff;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: .8em
 }
 
 ::placeholder {
     text-align: center;
-    color: white;
-    font-weight: 500
-    font-size: 0.75em;
+    color: #fff;
+    font-weight: 500;
+    font-size: .75em
 }
 
 .message_form_input {
@@ -193,31 +191,30 @@ body {
     color: #fff;
     margin-top: 15%;
     padding: 20px;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
 .form_submit_button {
     width: 80%;
     margin-left: 10%;
     border: none;
-    color: #ffffff;
+    color: #fff;
     margin-top: 6.5%;
     background-color: #1c29a0;
     font-weight: 600;
     font-size: 1.5em;
-    -webkit-transition: background-color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out;
-    transition: background-color 0.3s ease-out;
+    -webkit-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out;
     margin-bottom: 4%;
     padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    padding-bottom: 2.5%
 }
 
 .form_submit_button:hover {
     cursor: pointer;
     background-color: #258aff
 }
-
 
 .context {
     width: 100%;
@@ -417,4 +414,3 @@ body {
         border-radius: 20%
     }
 }
-
