@@ -9,7 +9,6 @@
 
     <div id="new_set_content">
         <section>
-        <div id="my_sets_rectangle">
             <header>
             <h1 id="new_set_title_row_h1">NEW SET</h1>
             </header>
@@ -17,8 +16,8 @@
                 {% csrf_token %}
                 {{ form.as_p }}
                 <button name="submit">Add set</button>
+                <button id="new_set_button">CREATE SET</button>
             </form>
-        </div>
         </section>
     </div>
 
