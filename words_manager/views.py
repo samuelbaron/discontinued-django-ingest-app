@@ -39,4 +39,11 @@ def set_display(request, set_id):
     context = {'set': spec_set, 'words': words}
     return render(request, 'words_manager/set_display.html', context)
 
-    
+
+def set_edit(request, set_id):
+
+    spec_set = get_object_or_404(Set, pk=set_id)
+
+    words = spec_set.word_set.all()
+    context = {'set': spec_set, 'words': words}
+    return render(request, 'words_manager/set_edit.html', context)
