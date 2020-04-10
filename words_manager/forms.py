@@ -7,8 +7,10 @@ class SetForm(forms.ModelForm):
         model = Set
         fields = ['name']
         labels = {'text': ''}
+        widgets = {'name': forms.TextInput(attrs={'id':'form_name'})}
+        
 
-    
+
 class WordForm(forms.ModelForm):
     class Meta: 
         model = Word

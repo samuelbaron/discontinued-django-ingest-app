@@ -68,3 +68,23 @@ def word_add(request, set_id):
     }
 
     return render(request, 'words_manager/word_add.html', context)
+
+
+def word_edit(request, word_id):
+    spec_word = get_object_or_404(Word, pk=word_id)
+    spec_set = spec_word.set_FK
+
+    if request.method != 'POST':
+        form = WordForm(instance=spec_word)
+    else:
+        form = WordForm(request.POST, instance=spec_word)
+        if form.is_valid():
+            form.save()
+            return redirect(reverse('words_manager:set_edit', args=[spec_set.id]))
+
+    context = {
+        'form': form,
+        'word': spec_word,
+    }
+
+    return render(request, 'words_manager/word_edit.html', context)

@@ -9,7 +9,7 @@
 
     <div id="edit_set_content">
         <div id="edit_set_rectangle">
-            <h1 id="edit_set_title_row_h1">EDIT {{ set }} SET</h1>
+            <h1 id="edit_set_title_row_h1">Edit {{ set }}</h1>
 
             <div id="words_list">
                 <ul id="words_list_ul">
@@ -17,7 +17,9 @@
                     {% for word in words %}
 
                         <li class="words_list_li">{{ word }} - {{ word.native_word }}
-                            <button class="edit_word_button">edit</button>
+                            <a href="{% url 'words_manager:word_edit' word.id %}">
+                                <button class="edit_word_button">edit</button>
+                            </a>
                             <button class="delete_word_button">delete</button>
                         </li>
 
