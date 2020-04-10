@@ -30,7 +30,9 @@
             </article>
             <article>
                 <button id="start_button">START</button>
-                <button id="edit_button">EDIT</button>
+
+                <a href="{% url 'words_manager:set_edit' set.id %}"><button id="edit_button">EDIT</button></a>
+
                 <button id="delete_button">DELETE</button>
             </article>
         </div>
