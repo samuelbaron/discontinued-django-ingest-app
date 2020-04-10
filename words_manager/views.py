@@ -7,7 +7,7 @@ from django.urls import reverse
 from .models import *
 
 # Forms import
-from .forms import SetForm
+from .forms import SetForm, WordForm
 
 
 def sets_display(request):
@@ -50,4 +50,21 @@ def set_edit(request, set_id):
 
 
 def word_add(request, set_id):
-    pass
+    spec_set = get_object_or_404(Set, pk=set_id)
+
+    if request.method != 'POST':
+        form = WordForm()
+    else:
+        form = WordForm(request.POST)
+        if form.is_valid():
+            new_words = form.save(commit=False)
+            new_words.set_FK = spec_set
+            new_words.save()
+            return redirect(reverse('words_manager:set_edit', args=[set_id]))
+
+    context = {
+        'form': form,
+        'set': spec_set,
+    }
+
+    return render(request, 'words_manager/word_add.html', context)

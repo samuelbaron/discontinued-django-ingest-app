@@ -1,0 +1,25 @@
+{% extends "words_manager/base.html" %}
+{% load static %}
+
+{% block head %}
+    <link href="{% static 'words_manager/css/set_add.css'%}" rel="stylesheet"  type="text/css"/>
+{% endblock head %}
+
+{% block content %}
+
+    <div id="new_set_content">
+        <section>
+            <header>
+                <h1 id="new_set_title_row_h1">NEW WORD</h1>
+            </header>
+
+            <form action="{% url 'words_manager:word_add' set.id %}" method="POST">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button name="submit">Add Word</button>
+            </form>
+
+        </section>
+    </div>
+
+{% endblock content %}

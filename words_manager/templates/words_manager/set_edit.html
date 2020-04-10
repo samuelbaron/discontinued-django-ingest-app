@@ -33,7 +33,9 @@
 
 
             <button id="edit_button">EDIT TITLE</button>
-            <button id="undo_button">ADD WORD</button>
+            <a href="{% url 'words_manager:word_add' set.id %}">
+                <button id="undo_button">ADD WORD</button>
+            </a>
         </div>
     </div>
 
