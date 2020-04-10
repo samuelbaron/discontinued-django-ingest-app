@@ -47,3 +47,7 @@ def set_edit(request, set_id):
     words = spec_set.word_set.all()
     context = {'set': spec_set, 'words': words}
     return render(request, 'words_manager/set_edit.html', context)
+
+
+def word_add(request, set_id):
+    pass
