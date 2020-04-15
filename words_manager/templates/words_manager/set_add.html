@@ -14,12 +14,12 @@
             </header>
             <form action="{% url 'words_manager:set_add' %}" method="POST">
 
+                {% csrf_token %}
                 <div class="set_title">
-                    <input type="text" placeholder="set name">
+                    {{ form.as_p }}
                 </div>
 
-
-                <button id="new_set_button">CREATE SET</button>
+                <button name="submit" id="new_set_button">CREATE SET</button>
             </form>
         </section>
     </div>

@@ -27,22 +27,22 @@ class WordForm(forms.ModelForm):
         ]
 
         labels = {
-            'foreign_word': 'Word in foreign language',
-            'native_word': 'Word in native language',
-            'native_word_other': 'Other meaning (native)',
-            'foreign_example': 'Example foreign',
-            'native_example': 'Example native',
+            'foreign_word': '',
+            'native_word': '',
+            'native_word_other': '',
+            'foreign_example': '',
+            'native_example': '',
         }
 
         widgets = {
             'foreign_word': forms.Textarea(attrs={
-                #'class': ''
+                #'class': '',
                 'cols': 30,
                 'rows': 1,
             }),
 
             'native_word': forms.Textarea(attrs={
-                #'class': ''
+                #'class': '',
                 'cols': 30,
                 'rows': 1,
             }),
