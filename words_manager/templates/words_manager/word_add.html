@@ -2,21 +2,21 @@
 {% load static %}
 
 {% block head %}
-    <link href="{% static 'words_manager/css/set_add.css'%}" rel="stylesheet"  type="text/css"/>
+    <link href="{% static 'words_manager/css/word_add.css'%}" rel="stylesheet"  type="text/css"/>
 {% endblock head %}
 
 {% block content %}
 
-    <div id="new_set_content">
+    <div id="new_word_content">
         <section>
             <header>
-                <h1 id="new_set_title_row_h1">NEW WORD</h1>
+                <h1 id="new_word_title_row_h1">NEW WORD</h1>
             </header>
 
             <form action="{% url 'words_manager:word_add' set.id %}" method="POST">
                 {% csrf_token %}
                 {{ form.as_p }}
-                <button name="submit">Add Word</button>
+                <button name="submit" id="new_word_button">Add Word</button>
             </form>
 
         </section>

@@ -13,12 +13,16 @@
             <h1 id="new_set_title_row_h1">NEW SET</h1>
             </header>
             <form action="{% url 'words_manager:set_add' %}" method="POST">
-                {% csrf_token %}
-                {{ form.as_p }}
-                <button name="submit">Add set</button>
+
+                <div class="set_title">
+                    <input type="text" placeholder="set name">
+                </div>
+
+
                 <button id="new_set_button">CREATE SET</button>
             </form>
         </section>
     </div>
+
 
 {% endblock content %}

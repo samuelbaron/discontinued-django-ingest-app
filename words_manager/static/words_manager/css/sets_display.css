@@ -64,7 +64,7 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #3b3edb;
 }
-#add_new_set_plus_icon > {
+#add_new_set_plus_icon  {
     position: absolute;
     bottom: 14%;
     margin-left:45%;
