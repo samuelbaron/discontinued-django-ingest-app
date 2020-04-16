@@ -1,7 +1,5 @@
 {% load static %}
-<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Meta data -->
     <meta charset="UTF-8">
@@ -18,8 +16,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="{% static 'words_manager/images/favicon.png' %}" type="image/x-icon" />
-    <script crossorigin="anonymous" src="https://kit.fontawesome.com/b4ad8819b6.js"></script>
-    <!--fontawesome icons linked-->
 
     {% block head %} {% endblock head %}
 
@@ -42,17 +38,17 @@
 </div>
 <nav>
     <div id="navigation_bar">
-        <a href="{% url 'words_manager:sets_display' %}"><img src="{% static 'words_manager/images/ingest.svg' %}" id="logo" alt="app logo"></a>
+        <a href="{% url 'words_manager:sets_display' %}"><img src="{% static 'words_manager/images/ingest.svg' %}" alt="app logo" id="logo"></a>
         <p id="user_name">-LOGIN OF USER-</p>
-        <img src="{% static 'words_manager/icons/user_panel_navigation_bar_icons/logout_icon.png' %}" id="logout_icon">
+        <img id="logout_icon" src="{% static 'words_manager/icons/user_panel_navigation_bar_icons/logout_icon.png' %}" alt="logout icon">
     </div>
     <div id="navigation_bar_border"></div>
 </nav>
 <aside>
     <div class="side_bar">
-        <img src="{% static 'words_manager/icons/side_bar_icons/user_icon.png' %}" class="user_icon">
-        <img src="{% static 'words_manager/icons/side_bar_icons/email_icon.png' %}" class="user_icon">
-        <img src="{% static 'words_manager/icons/side_bar_icons/settings_icon.png' %}" class="user_icon">
+        <img src="{% static 'words_manager/icons/side_bar_icons/user_icon.png' %}" class="user_icon" alt="go to the profile icon">
+        <img src="{% static 'words_manager/icons/side_bar_icons/email_icon.png' %}" class="user_icon" alt="send us a message icon">
+        <img src="{% static 'words_manager/icons/side_bar_icons/settings_icon.png' %}" class="user_icon" alt="go to the settings icon">
     </div>
 </aside>
 <main>
