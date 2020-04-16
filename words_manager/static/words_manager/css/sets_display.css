@@ -16,29 +16,27 @@
     font-size: 3em;
     line-height: 180%;
 }
-
-#sets_list {
-    height: 77%;
-    width: 82.5%;
-    margin-left: 10%;
-}
 #set_list_ul {
     text-decoration: none;
     list-style-type: none;
     overflow-y: scroll;
-    height: 100%;
+    height: 77%;
+    width: 82.5%;
+    margin-left: 10%;
 }
 
 .set_list_li {
+    text-decoration: none;
     text-align: center;
     font-size: 1.8em;
-    padding: 5%;
+    padding: 4%;
     color: white;
 }
 
 .set_list_li:hover {
     opacity: 0.7;
     cursor: pointer;
+    color: #3b3edb;
 }
 #add_new_set_plus_icon{
     color: white;
@@ -73,5 +71,5 @@
 }
 
 #add_new_set_plus_icon:hover{
-    color: red;
+    color: #0040ff;
 }
