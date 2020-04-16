@@ -1,11 +1,5 @@
-{% extends "words_manager/base.html" %}
-{% load static %}
-
-{% block head %}
-<link rel="stylesheet" href="{% static 'words_manager/css/set_edit_title.css' %}" type="text/css"/>
-{% endblock head %}
-
-{% block content %}
+{% extends "words_manager/base.html" %} {% load static %} {% block head %}
+<link rel="stylesheet" href="{% static 'words_manager/css/set_edit_title.css' %}" type="text/css" /> {% endblock head %} {% block content %}
 
 <div id="edit_set_content">
     <div id="edit_set_rectangle">
@@ -14,7 +8,6 @@
         <div id="words_list">
             <!--  STEPKOS WORD   -->
         </div>
-
 
         <button id="edit_button">EDIT TITLE</button>
         <a href="{% url 'words_manager:word_add' set.id %}">

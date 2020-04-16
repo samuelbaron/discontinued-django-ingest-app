@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -32,7 +32,7 @@ body {
     opacity:.3;
     z-index:0
 }
-#page_not_found{
+.page_not_found{
     color: #fff;
     font-size: 5.3em;
     position: absolute;
@@ -40,7 +40,7 @@ body {
     top: 29%;
     z-index: 2
 }
-#error{
+.error{
     font-size: 5.3em;
     position: absolute;
     left: 29%;
@@ -133,8 +133,8 @@ p:hover{
     left: 40%;
     width: 150px;
     height: 150px;
-    -webkit-animation-delay: 0;
-    animation-delay: 0;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
     -webkit-animation-duration: 10s;
     animation-duration: 10s
 }
@@ -210,8 +210,8 @@ p:hover{
     left: 85%;
     width: 150px;
     height: 150px;
-    -webkit-animation-delay: 0;
-    animation-delay: 0;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
     -webkit-animation-duration: 10s;
     animation-duration: 10s
 }

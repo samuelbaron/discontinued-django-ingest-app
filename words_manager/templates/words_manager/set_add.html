@@ -1,28 +1,21 @@
-{% extends "words_manager/base.html" %}
-{% load static %}
+{% extends "words_manager/base.html" %} {% load static %} {% block head %}
+<link href="{% static 'words_manager/css/set_add.css'%}" rel="stylesheet" type="text/css" /> {% endblock head %} {% block content %}
 
-{% block head %}
-    <link href="{% static 'words_manager/css/set_add.css'%}" rel="stylesheet"  type="text/css"/>
-{% endblock head %}
-
-{% block content %}
-
-    <div id="new_set_content">
-        <section>
-            <header>
+<div id="new_set_content">
+    <section>
+        <header>
             <h1 id="new_set_title_row_h1">NEW SET</h1>
-            </header>
-            <form action="{% url 'words_manager:set_add' %}" method="POST">
+        </header>
+        <form action="{% url 'words_manager:set_add' %}" method="POST">
 
-                {% csrf_token %}
-                <div class="set_title">
-                    {{ form.as_p }}
-                </div>
+            {% csrf_token %}
+            <div class="set_title">
+                {{ form.as_p }}
+            </div>
 
-                <button name="submit" id="new_set_button">CREATE SET</button>
-            </form>
-        </section>
-    </div>
-
+            <button name="submit" id="new_set_button">CREATE SET</button>
+        </form>
+    </section>
+</div>
 
 {% endblock content %}

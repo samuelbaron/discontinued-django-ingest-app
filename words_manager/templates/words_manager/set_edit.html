@@ -1,44 +1,36 @@
-{% extends "words_manager/base.html" %}
-{% load static %}
+{% extends "words_manager/base.html" %} {% load static %} {% block head %}
+<link rel="stylesheet" href="{% static 'words_manager/css/set_edit.css' %}" type="text/css" /> {% endblock head %} {% block content %}
 
-{% block head %}
-    <link rel="stylesheet" href="{% static 'words_manager/css/set_edit.css' %}" type="text/css"/>
-{% endblock head %}
+<div id="edit_set_content">
+    <div id="edit_set_rectangle">
+        <h1 id="edit_set_title_row_h1">Edit {{ set }}</h1>
 
-{% block content %}
+        <div id="words_list">
+            <ul id="words_list_ul">
 
-    <div id="edit_set_content">
-        <div id="edit_set_rectangle">
-            <h1 id="edit_set_title_row_h1">Edit {{ set }}</h1>
+                {% for word in words %}
 
-            <div id="words_list">
-                <ul id="words_list_ul">
+                <li class="words_list_li">{{ word }} - {{ word.native_word }}
+                    <a href="{% url 'words_manager:word_edit' word.id %}">
+                        <button class="edit_word_button">edit</button>
+                    </a>
+                    <button class="delete_word_button">delete</button>
+                </li>
 
-                    {% for word in words %}
+                {% empty %}
 
-                        <li class="words_list_li">{{ word }} - {{ word.native_word }}
-                            <a href="{% url 'words_manager:word_edit' word.id %}">
-                                <button class="edit_word_button">edit</button>
-                            </a>
-                            <button class="delete_word_button">delete</button>
-                        </li>
+                <li class="words_list_li">Set {{ set }} is empty</li>
 
-                    {% empty %}
-                    
-                        <li class="words_list_li">Set {{ set }} is empty</li>
+                {% endfor %}
 
-                    {% endfor %}
-
-          
-                </ul>
-            </div>
-
-
-            <button id="edit_button">EDIT TITLE</button>
-            <a href="{% url 'words_manager:word_add' set.id %}">
-                <button id="undo_button">ADD WORD</button>
-            </a>
+            </ul>
         </div>
+
+        <button id="edit_button">EDIT TITLE</button>
+        <a href="{% url 'words_manager:word_add' set.id %}">
+            <button id="undo_button">ADD WORD</button>
+        </a>
     </div>
+</div>
 
 {% endblock content %}

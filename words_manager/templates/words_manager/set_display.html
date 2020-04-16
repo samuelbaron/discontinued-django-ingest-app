@@ -1,46 +1,38 @@
-{% extends "words_manager/base.html" %}
-{% load static %}
+{% extends "words_manager/base.html" %} {% load static %} {% block head %}
+<link rel="stylesheet" href="{% static 'words_manager/css/set_display.css' %}" type="text/css" /> {% endblock head %} {% block content %}
 
-{% block head %}
-    <link rel="stylesheet" href="{% static 'words_manager/css/set_display.css' %}" type="text/css"/>
-{% endblock head %}
-
-{% block content %}
-
-    <div id="specific_set_content">
-        <section>
+<div id="specific_set_content">
+    <section>
         <div id="specific_set_rectangle">
             <header>
                 <h1 id="specific_set_title_row_h1">{{set}}</h1>
             </header>
             <article>
-            <div id="words_list">
-                <ul id="words_list_ul">
-                    {% for word in words %}
+                <div id="words_list">
+                    <ul id="words_list_ul">
+                        {% for word in words %}
 
                         <li class="specific_set_list_li">{{ word }} - {{ word.native_word }}</li>
 
-                    {% empty %}
-                    
+                        {% empty %}
+
                         <li class="specific_set_list_li">Set {{ set }} is empty</li>
 
-                    {% endfor %}
-                </ul>
-            </div>
+                        {% endfor %}
+                    </ul>
+                </div>
             </article>
             <article>
                 <button id="start_button">START</button>
 
-                <a href="{% url 'words_manager:set_edit' set.id %}"><button id="edit_button">EDIT</button></a>
+                <a href="{% url 'words_manager:set_edit' set.id %}">
+                    <button id="edit_button">EDIT</button>
+                </a>
 
                 <button id="delete_button">DELETE</button>
             </article>
         </div>
-        </section>
-    </div>
+    </section>
+</div>
 
 {% endblock content %}
-
-
-
-       

@@ -1,24 +1,16 @@
-{% extends "words_manager/base.html" %}
-{% load static %}
-
-{% block head %}
-<link rel="stylesheet" href="{% static 'words_manager/css/404_style.css' %}" type="text/css"/>
-{% endblock head %}
-
-{% block content %}
+{% extends "words_manager/base.html" %} {% load static %} {% block head %}
+<link rel="stylesheet" href="{% static 'words_manager/css/404_style.css' %}" type="text/css" /> {% endblock head %} {% block content %}
 
 <div class="horizontal_rectangle">
-    <h1 id="error">404</h1>
-    <h2 id="page_not_found">PAGE NOT FOUND</h2>
-    <a href=""> <!-- GO TO INDEX.HTML -->
-    <p>click here to return to the home page</p>
+    <h1 class="error">404</h1>
+    <h2 class="page_not_found">PAGE NOT FOUND</h2>
+    <a href="">
+        <!-- GO TO INDEX.HTML -->
+        <p>click here to return to the home page</p>
     </a>
 </div>
 <div class="horizontal_rectangle_border"></div>
 {% endblock content %}
-
-
-
 
 <!--Background Pattern: url("https://www.transparenttextures.com/patterns/swirl.png")-->
 <!--Flags Icons made by Freepik from www.flaticon.com-->

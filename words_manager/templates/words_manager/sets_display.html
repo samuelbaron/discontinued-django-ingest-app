@@ -1,43 +1,37 @@
-{% extends "words_manager/base.html" %}
-{% load static %}
-
-{% block head %}
-    <link href="{% static 'words_manager/css/sets_display.css'%}" rel="stylesheet" type="text/css"/>
-{% endblock head %}
-
-{% block content %}
-    <main>
+{% extends "words_manager/base.html" %} {% load static %} {% block head %}
+<link href="{% static 'words_manager/css/sets_display.css'%}" rel="stylesheet" type="text/css" /> {% endblock head %} {% block content %}
+<main>
     <div id="my_sets_content">
         <section>
-        <div id="my_sets_rectangle">
-            <header>
-            <h1 id="my_sets_title_row_h1">MY SETS</h1>
-            </header>
-            <article>
-                <ul id="set_list_ul">
+            <div id="my_sets_rectangle">
+                <header>
+                    <h1 id="my_sets_title_row_h1">MY SETS</h1>
+                </header>
+                <article>
+                    <ul id="set_list_ul">
 
-                    {% for set in sets %}
-        
+                        {% for set in sets %}
+
                         <li class="set_list_li">
                             <a href="{% url 'words_manager:set_display' set.id %}">
                                 {{ set }}
-                            </a>    
+                            </a>
                         </li>
 
-                    {% endfor %}
+                        {% endfor %}
 
-                </ul>
+                    </ul>
 
-                <span id="add_new_set_plus_icon">
+                    <span id="add_new_set_plus_icon">
                 <a href="{% url 'words_manager:set_add'%}">
                     <i class="fas fa-plus-circle fa-3x"></i>
                 </a>
                 </span>
 
-        </article>
-        </div>
+                </article>
+            </div>
         </section>
 
     </div>
-    </main>
+</main>
 {% endblock content %}

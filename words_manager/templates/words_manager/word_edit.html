@@ -1,25 +1,18 @@
-{% extends "words_manager/base.html" %}
-{% load static %}
+{% extends "words_manager/base.html" %} {% load static %} {% block head %}
+<link href="{% static 'words_manager/css/set_add.css'%}" rel="stylesheet" type="text/css" /> {% endblock head %} {% block content %}
 
-{% block head %}
-    <link href="{% static 'words_manager/css/set_add.css'%}" rel="stylesheet"  type="text/css"/>
-{% endblock head %}
+<div id="new_set_content">
+    <section>
+        <header>
+            <h1 id="new_set_title_row_h1">EDIT WORD</h1>
+        </header>
 
-{% block content %}
+        <form action="{% url 'words_manager:word_edit' word.id %}" method="POST">
+            {% csrf_token %} {{ form.as_p }}
+            <button name="submit">Edit Word</button>
+        </form>
 
-    <div id="new_set_content">
-        <section>
-            <header>
-                <h1 id="new_set_title_row_h1">EDIT WORD</h1>
-            </header>
-
-            <form action="{% url 'words_manager:word_edit' word.id %}" method="POST">
-                {% csrf_token %}
-                {{ form.as_p }}
-                <button name="submit">Edit Word</button>
-            </form>
-
-        </section>
-    </div>
+    </section>
+</div>
 
 {% endblock content %}
