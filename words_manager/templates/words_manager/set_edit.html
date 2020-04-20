@@ -16,7 +16,10 @@
                     <a href="{% url 'words_manager:word_edit' word.id %}">
                         <button class="edit_word_button">edit</button>
                     </a>
-                    <button class="delete_word_button">delete</button>
+
+                    <a href="{% url 'words_manager:word_delete' word.id %}">
+                        <button class="delete_word_button">delete</button>
+                    </a>
                 </li>
 
                 {% empty %}

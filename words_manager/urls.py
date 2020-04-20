@@ -14,4 +14,5 @@ urlpatterns = [
 
     # They aren't views
     path('<int:set_id>/delete/', views.set_delete, name='set_delete'),
+    path('word/<int:word_id>/delete/', views.word_delete, name='word_delete'),
 ]

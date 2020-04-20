@@ -94,3 +94,11 @@ def set_delete(request, set_id):
     spec_set = Set.objects.get(id=set_id)
     spec_set.delete()
     return redirect(reverse('words_manager:sets_display'))
+
+
+def word_delete(request, word_id):
+    spec_word = Word.objects.get(id=word_id)
+    spec_set = spec_word.set_FK
+    spec_word.delete()
+    return redirect(reverse('words_manager:set_display', args=[spec_set.id]))
+    
