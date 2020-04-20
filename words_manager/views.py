@@ -88,3 +88,9 @@ def word_edit(request, word_id):
     }
 
     return render(request, 'words_manager/word_edit.html', context)
+
+
+def set_delete(request, set_id):
+    spec_set = Set.objects.get(id=set_id)
+    spec_set.delete()
+    return redirect(reverse('words_manager:sets_display'))

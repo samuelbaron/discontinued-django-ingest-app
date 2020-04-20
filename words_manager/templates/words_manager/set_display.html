@@ -29,7 +29,10 @@
                     <button id="edit_button">EDIT</button>
                 </a>
 
-                <button id="delete_button">DELETE</button>
+                <a href="{% url 'words_manager:set_delete' set.id %}">
+                    <button id="delete_button">DELETE</button>
+                </a>
+
             </article>
         </div>
     </section>
