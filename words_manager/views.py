@@ -28,11 +28,6 @@ def set_add(request):
 
 
 def set_display(request, set_id):
-    '''try:
-        spec_set = Set.objects.get(id=set_id)
-    except Set.DoesNotExist:
-        raise Http404('Erro 404 XDDDD')'''
-
     spec_set = get_object_or_404(Set, pk=set_id)
 
     words = spec_set.word_set.all()
@@ -41,7 +36,6 @@ def set_display(request, set_id):
 
 
 def set_edit(request, set_id):
-
     spec_set = get_object_or_404(Set, pk=set_id)
 
     words = spec_set.word_set.all()
@@ -101,4 +95,3 @@ def word_delete(request, word_id):
     spec_set = spec_word.set_FK
     spec_word.delete()
     return redirect(reverse('words_manager:set_display', args=[spec_set.id]))
-    
