@@ -38,9 +38,7 @@ python manage.py runserver
 * add word
 * word edit
 
-## In progress
-
-### v. 0.9
+### v. 0.9 IN PROGRESS
 * Add memoboxes
 * Add learn app
 
