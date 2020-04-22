@@ -11,10 +11,10 @@ class Set(models.Model):
 class Word(models.Model):
     set_FK = models.ForeignKey(Set, on_delete=models.CASCADE)
 
-    ''' --- Memobox Legend ---
-            0       is not already learning
-            1 - 5   is in memobex
-            6       words have learned
+    '''   --- Memobox Legend ---
+        0       is not already learning
+        1 - 5   is in memobex
+        6       words have learned
     '''
     memobox = models.IntegerField(default=1)
 
