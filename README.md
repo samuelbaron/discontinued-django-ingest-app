@@ -28,17 +28,23 @@ python manage.py runserver
 ### v. 0.7
 #### Commit: 51
 * Join frond-end
-* sets display
-* set add
-* set display
+* Sets display
+* Set add
+* Set display
 
 ### v. 0.8
 #### Commit: 70
 * Extends words model and forms
-* add word
-* word edit
+* Add word
+* Word edit
+
+### v. 0.8.5
+#### Commit: 90
+* Add delete set function
+* Add delete word function
 
 ### v. 0.9 - In progress
+* Add memoboxes
 * Add learn app
 
 ## Authors
