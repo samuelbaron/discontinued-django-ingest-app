@@ -26,17 +26,23 @@ python manage.py runserver
 * Start frond-end project
 
 ### v. 0.7
-##### Commit: 51
+#### Commit: 51
 * Join frond-end
 * sets display
 * set add
 * set display
 
 ### v. 0.8
-##### Commit: 70
+#### Commit: 70
 * Extends words model and forms
 * add word
 * word edit
+
+## In progress
+
+### v. 0.9
+* Add memoboxes
+* Add learn app
 
 ## Authors
 * Jakub Stępkowski
