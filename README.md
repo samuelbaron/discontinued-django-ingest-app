@@ -38,13 +38,12 @@ python manage.py runserver
 * add word
 * word edit
 
-### v. 0.9 IN PROGRESS
-* Add memoboxes
+### v. 0.9 - In progress
 * Add learn app
 
 ## Authors
 * Jakub Stępkowski
-* Samuel baron
+* Samuel Baron
 
 ## License
 All rights reserved
