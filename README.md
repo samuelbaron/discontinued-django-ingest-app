@@ -1,6 +1,6 @@
 # INGEST
 
-It's the best app to lear words in foreing language.
+It's the best app to learing words in foreing language.
 
 ## How to run?
 
